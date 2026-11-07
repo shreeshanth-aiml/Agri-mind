@@ -1,0 +1,1653 @@
+[
+  {
+    "id": "tomato_early_blight",
+    "scientificName": "Alternaria solani",
+    "commonNames": {
+      "en": "Early Blight",
+      "kn": "ಮುಂಚಿನ ಅಂಗಮಾರಿ ರೋಗ (Early Blight)",
+      "hi": "अगेती झुलसा"
+    },
+    "category": "fungal",
+    "affectedPlants": ["tomato", "potato", "brinjal"],
+    "affectedParts": ["leaf", "stem", "fruit"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["brown", "tan", "dark brown", "matte brown"],
+        "contradictedKeywords": ["glossy black", "solid black", "powdery white", "orange pustule"],
+        "descriptionEn": "Matte brown to dark-brown necrotic lesions",
+        "descriptionKn": "ಕಂದು ಬಣ್ಣದ ಒಣಗಿದ ಮಚ್ಚೆಗಳು (ನಯವಾದ ಕಪ್ಪು ಬಣ್ಣವಲ್ಲ)",
+        "required": true
+      },
+      {
+        "feature": "ring_pattern",
+        "expectedKeywords": ["concentric", "target", "bullseye", "rings"],
+        "contradictedKeywords": ["no ring", "no concentric", "absent", "uniform"],
+        "descriptionEn": "Distinct concentric target-board (bullseye) rings inside the brown lesion",
+        "descriptionKn": "ಕಂದು ಮಚ್ಚೆಯ ಒಳಗೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುವ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳು (Target rings)",
+        "required": true
+      },
+      {
+        "feature": "halo",
+        "expectedKeywords": ["yellow halo", "chlorotic halo", "yellow border", "yellow ring"],
+        "contradictedKeywords": ["no halo", "sharp margin", "no yellow"],
+        "descriptionEn": "Diffuse yellow chlorotic halo surrounding older lesions",
+        "descriptionKn": "ಕಲೆಗಳ ಸುತ್ತ ಹಳದಿ ಬಣ್ಣದ ವಲಯ (Chlorotic halo)",
+        "required": false
+      },
+      {
+        "feature": "distribution",
+        "expectedKeywords": ["older", "lower", "basal", "scattered"],
+        "contradictedKeywords": [],
+        "descriptionEn": "Starts on older, lower canopy leaves first and progresses upward",
+        "descriptionKn": "ಮೊದಲು ಗಿಡದ ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಂಡು ಮೇಲಕ್ಕೆ ಹರಡುತ್ತದೆ",
+        "required": false
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Bullseye concentric rings inside matte brown spots (never glossy raised black dots)",
+        "Yellow tissue halo around older spots on lower leaves"
+      ],
+      "kn": [
+        "ಕಂದು ಕಲೆಯೊಳಗೆ ಸ್ಪಷ್ಟ ವೃತ್ತಾಕಾರದ ಗುರಿ-ಉಂಗುರಗಳು (ಹೊಳೆಯುವ ಕಪ್ಪು ಚುಕ್ಕೆಗಳಲ್ಲ)",
+        "ಕೆಳಗಿನ ಎಲೆಗಳ ಕಲೆಗಳ ಸುತ್ತ ಹಳದಿ ವಲಯ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "bacterial_leaf_spot",
+        "conditionNameEn": "Bacterial Leaf Spot",
+        "howToTellApartEn": "Bacterial spots are smaller, water-soaked or greasy dark specks without concentric target rings.",
+        "howToTellApartKn": "ಬ್ಯಾಕ್ಟೀರಿಯಾ ಚುಕ್ಕೆಗಳು ಚಿಕ್ಕದಾಗಿದ್ದು ನೀರುಗುಳ್ಳೆಯಂತಿರುತ್ತವೆ ಮತ್ತು ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ."
+      },
+      {
+        "diseaseId": "tomato_late_blight",
+        "conditionNameEn": "Late Blight",
+        "howToTellApartEn": "Late blight forms large, irregular, pale-green to olive water-soaked blotches with white cottony growth on the underside in humid weather.",
+        "howToTellApartKn": "ತಡವಾದ ಅಂಗಮಾರಿಯಲ್ಲಿ ದೊಡ್ಡ ನೀರುಗುಳ್ಳೆಯಂತಹ ಮಚ್ಚೆಗಳಿದ್ದು ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಬಿಳಿ ಶಿಲೀಂಧ್ರ ಕಾಣಿಸುತ್ತದೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Warm, humid weather (24–29°C) with alternating wet and dry periods, heavy dew, or overhead irrigation.",
+      "kn": "ಬೆಚ್ಚಗಿನ ಮತ್ತು ತೇವಾಂಶವುಳ್ಳ ಹವಾಮಾನ (24–29°C), ಇಬ್ಬನಿ ಅಥವಾ ತುಂತುರು ನೀರಾವರಿ.",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Alternaria solani (Fungus)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Take a close-up macro photo in angled daylight to confirm whether concentric target rings are inside the brown spots.",
+        "Check if the lowest, oldest leaves on the plant are the most severely affected.",
+        "Inspect the leaf underside to rule out white downy mould or sap-sucking insects."
+      ],
+      "kn": [
+        "ಕಂದು ಕಲೆಗಳ ಒಳಗೆ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳಿವೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಲು ಹತ್ತಿರದ ಫೋಟೋ ತೆಗೆಯಿರಿ.",
+        "ಗಿಡದ ಅತ್ಯಂತ ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳಲ್ಲಿ ಮೊದಲು ಕಾಣಿಸಿಕೊಂಡಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.",
+        "ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಬಿಳಿ ಶಿಲೀಂಧ್ರ ಅಥವಾ ಕೀಟಗಳಿವೆಯೇ ಎಂದು ನೋಡಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Prune and remove heavily infected lower leaves carefully; dispose of them outside the field (do not compost).",
+          "Stop overhead sprinkler watering immediately; switch to furrow or drip irrigation at the root zone."
+        ],
+        "kn": [
+          "ತೀವ್ರವಾಗಿ ಸೋಂಕಿತ ಕೆಳಗಿನ ಎಲೆಗಳನ್ನು ಕತ್ತರಿಸಿ ಜಮೀನಿನಿಂದ ದೂರ ನಾಶಪಡಿಸಿ.",
+          "ಎಲೆಗಳ ಮೇಲೆ ನೀರು ಬೀಳುವ ತುಂತುರು ನೀರಾವರಿ ನಿಲ್ಲಿಸಿ; ಬುಡಕ್ಕೆ ಮಾತ್ರ ನೀರು ಹಾಯಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Stake plants and maintain wide row spacing to improve sunlight penetration and canopy airflow.",
+          "Apply dry straw or plastic mulch to prevent soil-borne spores from splashing onto lower leaves during rain.",
+          "Follow a 2-to-3 year crop rotation with non-solanaceous crops such as millets (ragi/maize) or pulses."
+        ],
+        "kn": [
+          "ಗಾಳಿ ಮತ್ತು ಬಿಸಿಲು ಚೆನ್ನಾಗಿ ಆಡುವಂತೆ ಗಿಡಗಳಿಗೆ ಆಧಾರ ಕಡ್ಡಿ ಕಟ್ಟಿ ಅಂತರ ಕಾಪಾಡಿ.",
+          "ಮಳೆಯಿಂದ ಮಣ್ಣು ಎಲೆಗಳಿಗೆ ಚಿಮ್ಮದಂತೆ ಒಣಹುಲ್ಲಿನ ಹೊದಿಕೆ (Mulching) ಮಾಡಿ.",
+          "ರಾಗಿ, ಮೆಕ್ಕೆಜೋಳ ಅಥವಾ ದ್ವಿದಳ ಧಾನ್ಯಗಳೊಂದಿಗೆ 2–3 ವರ್ಷ ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Soil application of farmyard manure enriched with Trichoderma viride or Pseudomonas fluorescens prior to transplanting.",
+          "Preventive foliar spray of registered Pseudomonas fluorescens bio-formulation as per university guidelines."
+        ],
+        "kn": [
+          "ನಾಟಿ ಮಾಡುವ ಮುನ್ನ ಟ್ರೈಕೋಡರ್ಮಾ ವಿರಿಡೆ (Trichoderma viride) ಬೆರೆಸಿದ ಕೊಟ್ಟಿಗೆ ಗೊಬ್ಬರವನ್ನು ಮಣ್ಣಿಗೆ ಸೇರಿಸಿ.",
+          "ರೋಗ ತಡೆಗಟ್ಟಲು ಸೂಡೊಮೊನಾಸ್ ಫ್ಲೂರೊಸೆನ್ಸ್ (Pseudomonas fluorescens) ಜೈವಿಕ ದ್ರಾವಣ ಬಳಸಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Mancozeb, Chlorothalonil, or Azoxystrobin (registered formulations for Solanaceous early blight)",
+        "activeIngredientsKn": "ಮ್ಯಾಂಕೋಜೆಬ್ (Mancozeb), ಕ್ಲೋರೋಥಲೋನಿಲ್ (Chlorothalonil), ಅಥವಾ ಅಜೋಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ (Azoxystrobin) ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Active ingredients listed per UAS Bengaluru & ICAR-IIHR Package of Practices. Do not use unverified dosages — strictly check the CIB&RC registered product label for crop-specific dilution, waiting period (PHI), and safety gear, and confirm with your local KVK or agriculture extension officer before spraying.",
+        "noteKn": "ಬೆಂಗಳೂರು ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ (UAS) ಮತ್ತು ICAR-IIHR ಕೈಪಿಡಿಯಂತೆ ಸಕ್ರಿಯ ಘಟಕಗಳನ್ನು ಮಾತ್ರ ಹೆಸರಿಸಲಾಗಿದೆ. ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಸೂಚನೆ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿ ಅಥವಾ KVK ವಿಜ್ಞಾನಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Package of Practices for Horticultural Crops — Tomato Early Blight Management",
+        "organisation": "University of Horticultural Sciences (UHS) Bagalkot & ICAR-IIHR Hessaraghatta, Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      },
+      {
+        "title": "Major Diseases of Tomato and Integrated Management",
+        "organisation": "TNAU Agritech Portal / ICAR-NRIIPM",
+        "datePublishedOrReviewed": "Reviewed 2023"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "tomato_late_blight",
+    "scientificName": "Phytophthora infestans",
+    "commonNames": {
+      "en": "Late Blight",
+      "kn": "ತಡವಾದ ಅಂಗಮಾರಿ ರೋಗ (Late Blight)",
+      "hi": "पछेती झुलसा"
+    },
+    "category": "oomycete",
+    "affectedPlants": ["tomato", "potato"],
+    "affectedParts": ["leaf", "stem", "fruit"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["water-soaked", "dark green", "olive", "purplish-black", "grey-green"],
+        "contradictedKeywords": ["glossy raised black dots", "powdery orange"],
+        "descriptionEn": "Large irregular pale-green to dark purplish-black water-soaked blotches",
+        "descriptionKn": "ಎಲೆಯ ಅಂಚಿನಲ್ಲಿ ನೀರುಗುಳ್ಳೆಯಂತಹ ದೊಡ್ಡ ಕಪ್ಪು-ಹಸಿರು ಮಚ್ಚೆಗಳು",
+        "required": true
+      },
+      {
+        "feature": "coating_or_growth",
+        "expectedKeywords": ["white", "downy", "cottony", "mould", "underside"],
+        "contradictedKeywords": [],
+        "descriptionEn": "Delicate white cottony/downy sporangial growth along lesion margins on the leaf underside in cool wet weather",
+        "descriptionKn": "ತೇವಾಂಶವಿದ್ದಾಗ ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಮಚ್ಚೆಯ ಅಂಚಿನಲ್ಲಿ ಬಿಳಿ ಹತ್ತಿಯಂತಹ ಶಿಲೀಂಧ್ರ ಬೆಳವಣಿಗೆ",
+        "required": false
+      },
+      {
+        "feature": "ring_pattern",
+        "expectedKeywords": ["no ring", "absent", "irregular"],
+        "contradictedKeywords": ["sharp concentric target rings"],
+        "descriptionEn": "Irregular expanding blotches without neat target-board rings",
+        "descriptionKn": "ನಿರ್ದಿಷ್ಟ ಉಂಗುರಗಳಿಲ್ಲದೆ ವೇಗವಾಗಿ ಹರಡುವ ಮಚ್ಚೆಗಳು",
+        "required": false
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Rapidly expanding water-soaked blotches starting at leaf tips/margins",
+        "White fuzzy growth on the underside of leaves during cool, wet mornings"
+      ],
+      "kn": [
+        "ಎಲೆಯ ತುದಿ ಮತ್ತು ಅಂಚಿನಲ್ಲಿ ವೇಗವಾಗಿ ಹರಡುವ ನೀರುಗುಳ್ಳೆಯಂತಹ ಕಪ್ಪು ಮಚ್ಚೆಗಳು",
+        "ಬೆಳಗಿನ ತಂಪು ವಾತಾವರಣದಲ್ಲಿ ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಬಿಳಿ ಶಿಲೀಂಧ್ರದ ಪದರ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "tomato_early_blight",
+        "conditionNameEn": "Early Blight",
+        "howToTellApartEn": "Early blight lesions are dry, restricted, and contain distinct concentric target rings.",
+        "howToTellApartKn": "ಮುಂಚಿನ ಅಂಗಮಾರಿಯಲ್ಲಿ ಕಲೆಗಳು ಒಣಗಿದ್ದು ಒಳಗೆ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Cool, cloudy, wet weather (15–22°C) with high relative humidity (>85%) and persistent drizzle or fog.",
+      "kn": "ತಂಪಾದ, ಮೋಡ ಕವಿದ ಮತ್ತು ಮಳೆಯ ವಾತಾವರಣ (15–22°C, ಶೇ. 85 ಕ್ಕಿಂತ ಹೆಚ್ಚು ತೇವಾಂಶ).",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Phytophthora infestans (Oomycete)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Photograph the underside of a freshly affected leaf in the morning to check for white fuzzy fungal rims.",
+        "Inspect stems and petioles for dark greasy brownish-black lesions."
+      ],
+      "kn": [
+        "ಬೆಳಗಿನ ಜಾವ ಸೋಂಕಿತ ಎಲೆಯ ಕೆಳಭಾಗದ ಫೋಟೋ ತೆಗೆದು ಬಿಳಿ ಶಿಲೀಂಧ್ರದ ಅಂಚು ಇದೆಯೇ ಎಂದು ನೋಡಿ.",
+        "ಕಾಂಡದ ಮೇಲೆ ಕಪ್ಪು ಕೊಳೆತ ಗುರುತುಗಳಿವೆಯೇ ಪರಿಶೀಲಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Uproot and deeply bury severely blighted plants immediately to stop rapid spore spread across the plot.",
+          "Improve field drainage channels so rainwater does not stagnate between rows."
+        ],
+        "kn": [
+          "ತೀವ್ರವಾಗಿ ಕೊಳೆತ ಗಿಡಗಳನ್ನು ತಕ್ಷಣ ಕಿತ್ತು ಆಳವಾಗಿ ಹೂತುಹಾಕಿ.",
+          "ಹೊಲದಲ್ಲಿ ಮಳೆ ನೀರು ನಿಲ್ಲದಂತೆ ಬಸಿಗಾಲುವೆ ಸರಿಪಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Avoid planting tomato adjacent to potato plots and eliminate volunteer potato/tomato plants.",
+          "Do not work in or walk through the crop while foliage is wet with dew or rain."
+        ],
+        "kn": [
+          "ಆಲೂಗಡ್ಡೆ ಹೊಲದ ಪಕ್ಕದಲ್ಲಿ ಟೊಮೇಟೊ ಬೆಳೆಯಬೇಡಿ.",
+          "ಎಲೆಗಳು ಒದ್ದೆಯಾಗಿರುವಾಗ ಹೊಲದಲ್ಲಿ ಓಡಾಡಬೇಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Preventive seedling root dip and soil application of Trichoderma harzianum as recommended by ICAR-IIHR."
+        ],
+        "kn": [
+          "ICAR-IIHR ಶಿಫಾರಸಿನಂತೆ ಟ್ರೈಕೋಡರ್ಮಾ ಹರ್ಜಿಯಾನಮ್ (Trichoderma harzianum) ಜೈವಿಕ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Mancozeb (contact preventive) or Cymoxanil + Mancozeb / Metalaxyl-M + Mancozeb (registered oomycete fungicides)",
+        "activeIngredientsKn": "ಮ್ಯಾಂಕೋಜೆಬ್ (Mancozeb) ಅಥವಾ ಸೈಮೊಕ್ಸಾನಿಲ್ + ಮ್ಯಾಂಕೋಜೆಬ್ (Cymoxanil + Mancozeb) ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your local KVK or agriculture officer before spraying. Ensure thorough coverage of leaf undersides.",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "ICAR-IIHR Technical Bulletin: Integrated Management of Late Blight in Tomato and Potato",
+        "organisation": "ICAR - Indian Institute of Horticultural Research, Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "solanaceous_leaf_curl_virus",
+    "scientificName": "Tomato Yellow Leaf Curl Virus (Begomovirus)",
+    "commonNames": {
+      "en": "Leaf Curl Virus Complex (TYLCV / Murda)",
+      "kn": "ಎಲೆ ಮುದುಡು ವೈರಸ್ ರೋಗ (Leaf Curl Virus)",
+      "hi": "पत्ती मोड़क विषाणु रोग"
+    },
+    "category": "viral",
+    "affectedPlants": ["tomato", "chilli", "cotton", "brinjal"],
+    "affectedParts": ["leaf", "whole_plant"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_shape",
+        "expectedKeywords": ["upward curling", "cupping", "crinkled", "curled", "boat-shaped", "puckered"],
+        "contradictedKeywords": ["flat blade", "concentric brown rings"],
+        "descriptionEn": "Pronounced upward curling, cupping, puckering, and thickening of leaf blades",
+        "descriptionKn": "ಎಲೆಯ ಅಂಚುಗಳು ಮೇಲ್ಮುಖವಾಗಿ ಬಟ್ಟಲಿನಂತೆ ಮುದುಡಿಕೊಳ್ಳುವುದು ಮತ್ತು ದಪ್ಪವಾಗುವುದು",
+        "required": true
+      },
+      {
+        "feature": "discolouration_pattern",
+        "expectedKeywords": ["interveinal yellowing", "yellow margins", "pale", "chlorosis"],
+        "contradictedKeywords": ["solid black spots"],
+        "descriptionEn": "Yellowing along leaf margins and between veins while main veins remain green or thickened",
+        "descriptionKn": "ಎಲೆಯ ನರಗಳ ನಡುವೆ ಮತ್ತು ಅಂಚುಗಳಲ್ಲಿ ಹಳದಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುವುದು",
+        "required": true
+      },
+      {
+        "feature": "wilting",
+        "expectedKeywords": ["stunted", "bunched", "bushy", "short internodes"],
+        "contradictedKeywords": [],
+        "descriptionEn": "Stunted bushy growth with shortened internodes and flower drop",
+        "descriptionKn": "ಗಿಡದ ಬೆಳವಣಿಗೆ ಕುಂಠಿತವಾಗಿ ಚಿಕ್ಕ ಎಲೆಗಳ ಗುಚ್ಛದಂತಾಗುವುದು ಹಾಗೂ ಹೂವು ಉದುರುವುದು",
+        "required": false
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Upward boat/cup curling with leathery, brittle leaves and stunted internodes",
+        "Presence of tiny whiteflies (Bemisia tabaci) or thrips on the leaf underside"
+      ],
+      "kn": [
+        "ಎಲೆಗಳು ಮೇಲ್ಮುಖವಾಗಿ ಮುದುಡಿ ಗರಿಗರಿಯಾಗುವುದು ಹಾಗೂ ಗಿಡ ಕುಬ್ಜವಾಗುವುದು",
+        "ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಸಣ್ಣ ಬಿಳಿ ನೊಣಗಳು (Whiteflies) ಅಥವಾ ನುಸಿಗಳ ಉಪಸ್ಥಿತಿ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "potassium_deficiency",
+        "conditionNameEn": "Herbicide Drift or Mite/Thrips Feeding",
+        "howToTellApartEn": "Broad mites cause downward (inverted-spoon) bronzed curling on young tips; 2,4-D herbicide injury causes strapped, narrow parallel veins.",
+        "howToTellApartKn": "ನುಸಿ ಬಾಧೆಯಲ್ಲಿ ಎಲೆಗಳು ಕೆಳಮುಖವಾಗಿ ಮುದುಡುತ್ತವೆ; ಕಳೆನಾಶಕದ ಹಾನಿಯಲ್ಲಿ ಎಲೆಗಳು ದಾರದಂತೆ ಸಣ್ಣದಾಗುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Dry, warm weather (28–35°C) that favours rapid multiplication and migration of whitefly vectors.",
+      "kn": "ಬಿಳಿ ನೊಣಗಳ ವೃದ್ಧಿಗೆ ಪೂರಕವಾದ ಒಣ ಮತ್ತು ಬೆಚ್ಚಗಿನ ಹವಾಮಾನ (28–35°C).",
+      "seasons": ["Zaid", "Kharif", "Rabi"]
+    },
+    "causalAgent": "Begomovirus transmitted by Whitefly (Bemisia tabaci)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Add a close-up photo of the leaf underside to check for whiteflies, thrips, mites, or vein enations.",
+        "Add a whole-plant photo showing whether new top shoots are bunched and stunted.",
+        "Because viral infections cannot be definitively separated from mite/thrips curl or herbicide injury by a single photo alone, confirm with your local KVK officer."
+      ],
+      "kn": [
+        "ಬಿಳಿ ನೊಣ ಅಥವಾ ನುಸಿಗಳಿವೆಯೇ ಎಂದು ನೋಡಲು ಎಲೆಯ ಕೆಳಭಾಗದ ಸ್ಪಷ್ಟ ಫೋಟೋ ಸೇರಿಸಿ.",
+        "ಗಿಡದ ಮೇಲ್ಭಾಗದ ಚಿಗುರು ಕುಬ್ಜವಾಗಿದೆಯೇ ಎಂದು ತೋರಿಸಲು ಇಡೀ ಗಿಡದ ಫೋಟೋ ಸೇರಿಸಿ.",
+        "ವೈರಸ್ ರೋಗವನ್ನು ಫೋಟೋದಿಂದ ಮಾತ್ರ ಶೇ.100 ರಷ್ಟು ಖಚಿತಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲದ ಕಾರಣ KVK ಅಧಿಕಾರಿಗಳ ದೃಢೀಕರಣ ಪಡೆಯಿರಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Uproot and destroy early virus-infected stunted plants immediately (place in a closed bag before pulling so whiteflies do not scatter).",
+          "Install yellow sticky traps (for whiteflies) and blue sticky traps (for thrips) just above canopy height."
+        ],
+        "kn": [
+          "ಆರಂಭಿಕ ಹಂತದಲ್ಲಿ ವೈರಸ್ ತಗುಲಿದ ಗಿಡಗಳನ್ನು ಚೀಲದಲ್ಲಿ ಮುಚ್ಚಿ ಕಿತ್ತು ನಾಶಪಡಿಸಿ (ಇದರಿಂದ ಬಿಳಿ ನೊಣಗಳು ಪಕ್ಕದ ಗಿಡಕ್ಕೆ ಹಾರುವುದಿಲ್ಲ).",
+          "ಬೆಳೆಯ ಎತ್ತರದಲ್ಲೇ ಹಳದಿ ಮತ್ತು ನೀಲಿ ಜಿಗುಟು ಬಲೆಗಳನ್ನು (Sticky traps) ಅಳವಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Raise seedlings under 40-mesh insect-proof nylon net in the nursery.",
+          "Remove alternate weed hosts (especially Parthenium, Ageratum, and Euphorbia) from field bunds.",
+          "Plant barrier border rows of 2–3 rows of maize or sorghum around the field perimeter."
+        ],
+        "kn": [
+          "ಸಸಿಮಡಿಯಲ್ಲಿ 40-ಮೆಶ್ ನೈಲಾನ್ ಪರದೆಯೊಳಗೆ ಸಸಿಗಳನ್ನು ಬೆಳೆಸಿ.",
+          "ಹೊಲದ ಬದುಗಳಲ್ಲಿರುವ ಪಾರ್ಥೇನಿಯಂ (ಕಾಂಗ್ರೆಸ್ ಕಳೆ) ಮುಂತಾದ ಕಳೆಗಳನ್ನು ಸಂಪೂರ್ಣ ತೆಗೆದುಹಾಕಿ.",
+          "ಹೊಲದ ಸುತ್ತ 2–3 ಸಾಲು ಮೆಕ್ಕೆಜೋಳ ಅಥವಾ ಜೋಳವನ್ನು ತಡೆಗೋಡೆ ಬೆಳೆಯಾಗಿ ಬೆಳೆಯಿರಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Spray botanical Azadirachtin (Neem oil / Neem seed kernel extract) targeting the leaf undersides to deter whitefly vector feeding."
+        ],
+        "kn": [
+          "ಬಿಳಿ ನೊಣಗಳನ್ನು ತಡೆಯಲು ಎಲೆಯ ಕೆಳಭಾಗಕ್ಕೆ ತಾಗುವಂತೆ ಬೇವಿನ ಎಣ್ಣೆ (Azadirachtin) ಸಿಂಪಡಿಸಿ."
+        ]
+      },
+      "chemical": null
+    },
+    "incurableNote": {
+      "en": "IMPORTANT: Viral diseases have NO chemical cure once inside the plant. Fungicide or antibiotic sprays will not cure leaf curl virus. Management relies strictly on removing infected plants early and controlling the insect vector.",
+      "kn": "ಮುಖ್ಯ ಗಮನಿಸಿ: ವೈರಸ್ ರೋಗವು ಗಿಡದೊಳಗೆ ಸೇರಿದ ನಂತರ ಯಾವುದೇ ರಾಸಾಯನಿಕ ಔಷಧಿಯಿಂದ ಗುಣಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸೋಂಕಿತ ಗಿಡಗಳನ್ನು ಕಿತ್ತುಹಾಕುವುದು ಮತ್ತು ರೋಗ ಹರಡುವ ಬಿಳಿ ನೊಣಗಳನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಮಾತ್ರ ಪರಿಹಾರ."
+    },
+    "imageRecognitionSupported": false,
+    "sources": [
+      {
+        "title": "Integrated Management of Leaf Curl Virus Complex in Solanaceous Crops",
+        "organisation": "UAS Bengaluru & ICAR-IIHR Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "sooty_mould_sap_insects",
+    "scientificName": "Capnodium spp. (Secondary to Honeydew-Excreting Insects)",
+    "commonNames": {
+      "en": "Sooty Mould / Sap-Sucking Insect Residue",
+      "kn": "ಕಪ್ಪು ಮಸಿ ರೋಗ / ರಸಹೀರುವ ಕೀಟಗಳ ಬಾಧೆ (Sooty Mould)",
+      "hi": "काली फफूंद (सूटी मोल्ड)"
+    },
+    "category": "pest_damage",
+    "affectedPlants": [
+      "mango",
+      "coffee",
+      "coconut",
+      "arecanut",
+      "chilli",
+      "cotton",
+      "tomato",
+      "brinjal",
+      "banana",
+      "grapes"
+    ],
+    "affectedParts": ["leaf", "stem", "fruit"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["black", "solid black", "glossy black", "sooty", "charcoal", "dark black"],
+        "contradictedKeywords": ["tan center", "ash grey center"],
+        "descriptionEn": "Solid black, dark charcoal, or glossy black superficial spots or crusty film on the upper leaf blade",
+        "descriptionKn": "ಎಲೆಯ ಮೇಲ್ಭಾಗದಲ್ಲಿ ದಟ್ಟವಾದ ಕಪ್ಪು ಅಥವಾ ಹೊಳೆಯುವ ಕಪ್ಪು ಬಣ್ಣದ ಚುಕ್ಕೆಗಳು / ಪದರ",
+        "required": true
+      },
+      {
+        "feature": "ring_pattern",
+        "expectedKeywords": ["no ring", "no concentric", "absent", "solid"],
+        "contradictedKeywords": ["concentric target rings", "bullseye"],
+        "descriptionEn": "Completely lacks concentric target rings inside the black spots",
+        "descriptionKn": "ಕಪ್ಪು ಕಲೆಗಳ ಒಳಗೆ ಯಾವುದೇ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳು ಇರುವುದಿಲ್ಲ",
+        "required": true
+      },
+      {
+        "feature": "halo",
+        "expectedKeywords": ["no halo", "no yellow halo", "absent", "green surrounding"],
+        "contradictedKeywords": ["wide bright yellow halo"],
+        "descriptionEn": "Surrounding leaf blade remains green with no distinct yellow chlorotic halo around the black spots",
+        "descriptionKn": "ಕಪ್ಪು ಕಲೆಗಳ ಸುತ್ತ ಯಾವುದೇ ಹಳದಿ ವಲಯವಿರದೆ ಎಲೆಯು ಹಸಿರಾಗಿರುತ್ತದೆ",
+        "required": false
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Solid dark/glossy black spots or film on upper leaf surface with NO concentric rings and NO yellow halo",
+        "Often flakes or rubs off partially when scratched gently, or is accompanied by sticky honeydew / ants / scale insects on twigs and undersides"
+      ],
+      "kn": [
+        "ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳಿಲ್ಲದ ಮತ್ತು ಹಳದಿ ವಲಯವಿಲ್ಲದ ದಟ್ಟ ಕಪ್ಪು ಚುಕ್ಕೆಗಳು ಅಥವಾ ಪದರ",
+        "ಉಗುರಿನಿಂದ ಕೆರೆದಾಗ ಕಪ್ಪು ಪದರ ಕಿತ್ತುಬರುತ್ತದೆ ಅಥವಾ ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಹೇನು/ಶಲ್ಕ ಕೀಟಗಳು ಹಾಗೂ ಇರುವೆಗಳಿರುತ್ತವೆ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "algal_spot_crust",
+        "conditionNameEn": "Epiphytic Algal / Lichen Spot or Tar Spot",
+        "howToTellApartEn": "Tar spots or epiphytic crusts are firmly embedded or raised cushion-like bumps that do not flake off easily.",
+        "howToTellApartKn": "ಆಲ್ಗಲ್ ಅಥವಾ ಟಾರ್ ಕಲೆಗಳು ಎಲೆಯ ಮೇಲ್ಮೈಗೆ ಗಟ್ಟಿಯಾಗಿ ಅಂಟಿಕೊಂಡಿರುತ್ತವೆ."
+      },
+      {
+        "diseaseId": "bacterial_leaf_spot",
+        "conditionNameEn": "Bacterial Leaf Spot",
+        "howToTellApartEn": "Bacterial spots penetrate through the leaf tissue (visible on both sides) and often have a yellow margin.",
+        "howToTellApartKn": "ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಲೆಗಳು ಎಲೆಯ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "High humidity and shaded canopy following infestations of aphids, scale insects, mealybugs, whiteflies, or hoppers.",
+      "kn": "ಗಿಡದಲ್ಲಿ ಹೇನು, ಬಿಳಿ ನೊಣ, ಹಿಟ್ಟು ತಿಗಣೆ ಅಥವಾ ಶಲ್ಕ ಕೀಟಗಳ ಬಾಧೆ ಹೆಚ್ಚಾದಾಗ ಮತ್ತು ನೆರಳು ಹೆಚ್ಚಿದ್ದಾಗ.",
+      "seasons": ["Kharif", "Rabi", "Zaid"]
+    },
+    "causalAgent": "Saprophytic Capnodium fungi growing on insect honeydew secretions",
+    "whatWouldSettleIt": {
+      "en": [
+        "Gently rub one of the black spots with a wet cloth or fingernail: does the black layer flake or wipe off revealing green tissue underneath?",
+        "Add a photo of the leaf underside and stem nodes to check for scale insects, mealybugs, aphids, or ants tending them."
+      ],
+      "kn": [
+        "ಒದ್ದೆ ಬಟ್ಟೆ ಅಥವಾ ಬೆರಳಿನಿಂದ ಕಪ್ಪು ಕಲೆಯನ್ನು ಉಜ್ಜಿ ನೋಡಿ: ಕಪ್ಪು ಪದರ ಕಿತ್ತುಬಂದು ಕೆಳಗೆ ಹಸಿರು ಎಲೆ ಕಾಣಿಸುತ್ತದೆಯೇ?",
+        "ಶಲ್ಕ ಕೀಟ (Scales), ಹಿಟ್ಟು ತಿಗಣೆ ಅಥವಾ ಇರುವೆಗಳಿವೆಯೇ ಎಂದು ನೋಡಲು ಎಲೆಯ ಕೆಳಭಾಗದ ಫೋಟೋ ಸೇರಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Inspect the undersides of leaves and upper branches for scale insects, hoppers, aphids, or mealybugs.",
+          "Prune overcrowded, heavily shaded twigs to let sunlight and airflow dry the canopy."
+        ],
+        "kn": [
+          "ಎಲೆಯ ಕೆಳಭಾಗ ಮತ್ತು ಕೊಂಬೆಗಳಲ್ಲಿ ಶಲ್ಕ ಕೀಟ, ಹೇನು ಅಥವಾ ಹಿಟ್ಟು ತಿಗಣೆಗಳಿವೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.",
+          "ಬಿಸಿಲು ಮತ್ತು ಗಾಳಿ ಆಡುವಂತೆ ಒತ್ತಾದ ರೆಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Control ant colonies around the tree/plant base, as ants protect honeydew-producing scale insects and mealybugs from natural predators.",
+          "Wash foliage with a gentle water spray or mild starch/soap solution recommended by horticultural extension to help flake off superficial black mould."
+        ],
+        "kn": [
+          "ಗಿಡದ ಬುಡದಲ್ಲಿ ಇರುವೆ ಗೂಡುಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ (ಇರುವೆಗಳು ರಸಹೀರುವ ಕೀಟಗಳನ್ನು ರಕ್ಷಿಸುತ್ತವೆ).",
+          "ತೋಟಗಾರಿಕೆ ಇಲಾಖೆಯ ಸಲಹೆಯಂತೆ ಗಂಜಿದ್ರಾವಣ ಅಥವಾ ಸಾಬೂನು ನೀರಿನ ಸಿಂಪಡಣೆಯಿಂದ ಕಪ್ಪು ಪದರ ತೊಳೆಯಿರಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Conserve natural predators such as ladybird beetles (Coccinellids) and green lacewings (Chrysoperla).",
+          "Apply Neem oil (Azadirachtin) spray directed at the undersides of leaves to suppress sap-sucking insects."
+        ],
+        "kn": [
+          "ಪರಭಕ್ಷಕ ಗುಲಗಂಜಿ ಹುಳುಗಳನ್ನು (Ladybird beetles) ಸಂರಕ್ಷಿಸಿ.",
+          "ರಸಹೀರುವ ಕೀಟಗಳ ನಿಯಂತ್ರಣಕ್ಕೆ ಬೇವಿನ ಎಣ್ಣೆ (Neem oil) ಸಿಂಪಡಿಸಿ."
+        ]
+      },
+      "chemical": null
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Management of Sap-Sucking Pests and Sooty Mould in Horticultural Crops",
+        "organisation": "UHS Bagalkot & ICAR-IIHR Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "bacterial_leaf_spot",
+    "scientificName": "Xanthomonas spp.",
+    "commonNames": {
+      "en": "Bacterial Leaf Spot / Blight",
+      "kn": "ದುಂಡಾಣು ಎಲೆ ಚುಕ್ಕೆ ರೋಗ (Bacterial Spot)",
+      "hi": "जीवाणु पत्ती धब्बा"
+    },
+    "category": "bacterial",
+    "affectedPlants": ["tomato", "chilli", "cotton", "rice", "mango", "grapes"],
+    "affectedParts": ["leaf", "stem", "fruit"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_shape",
+        "expectedKeywords": ["angular", "small", "vein-bounded", "specks", "irregular"],
+        "contradictedKeywords": ["large concentric bullseye"],
+        "descriptionEn": "Small angular or irregular water-soaked specks bounded by fine leaf veins",
+        "descriptionKn": "ಎಲೆಯ ಸಣ್ಣ ನರಗಳಿಂದ ಸೀಮಿತವಾದ ಕೋನೀಯ ಆಕಾರದ ನೀರುಗುಳ್ಳೆಯಂತಹ ಚುಕ್ಕೆಗಳು",
+        "required": true
+      },
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["dark brown", "black", "greasy", "water-soaked"],
+        "contradictedKeywords": ["powdery white"],
+        "descriptionEn": "Greasy water-soaked lesions turning dark brown to black",
+        "descriptionKn": "ಎಣ್ಣೆಯಂತೆ ಅಥವಾ ನೀರುಗುಳ್ಳೆಯಂತಿದ್ದು ನಂತರ ಕಂದು-ಕಪ್ಪು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುವ ಕಲೆಗಳು",
+        "required": true
+      },
+      {
+        "feature": "ring_pattern",
+        "expectedKeywords": ["no ring", "absent"],
+        "contradictedKeywords": ["concentric rings"],
+        "descriptionEn": "Lacks concentric target rings",
+        "descriptionKn": "ಒಳಗೆ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳು ಇರುವುದಿಲ್ಲ",
+        "required": false
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Angular vein-limited dark greasy spots visible on both upper and lower leaf surfaces",
+        "No concentric rings inside the spot"
+      ],
+      "kn": [
+        "ಎಲೆಯ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಕಾಣಿಸುವ ನರಗಳಿಂದ ಸೀಮಿತವಾದ ಕೋನೀಯ ಕಪ್ಪು ಕಲೆಗಳು",
+        "ಕಲೆಯ ಒಳಗೆ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳಿಲ್ಲ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "tomato_early_blight",
+        "conditionNameEn": "Early Blight",
+        "howToTellApartEn": "Early blight spots are rounder and feature distinct concentric target rings.",
+        "howToTellApartKn": "ಮುಂಚಿನ ಅಂಗಮಾರಿಯಲ್ಲಿ ದುಂಡನೆಯ ಕಲೆಗಳೊಳಗೆ ಉಂಗುರಗಳಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Warm, driving rain, wind-splashed water, and high humidity (25–30°C).",
+      "kn": "ಗಾಳಿ ಸಹಿತ ಮಳೆ ಮತ್ತು ಹೆಚ್ಚಿನ ತೇವಾಂಶ (25–30°C).",
+      "seasons": ["Kharif"]
+    },
+    "causalAgent": "Xanthomonas campestris / Xanthomonas citri / Xanthomonas oryzae (Bacteria)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Hold the leaf up against bright light to see if the spot edges have a translucent water-soaked greasy rim.",
+        "Photograph both the upper and lower sides of the same leaf."
+      ],
+      "kn": [
+        "ಎಲೆಯನ್ನು ಬೆಳಕಿಗೆ ಹಿಡಿದು ಕಲೆಯ ಸುತ್ತ ಎಣ್ಣೆಯಂತಹ/ನೀರಿನಂತಹ ಪಾರದರ್ಶಕ ಅಂಚು ಇದೆಯೇ ನೋಡಿ.",
+        "ಎಲೆಯ ಮೇಲ್ಭಾಗ ಮತ್ತು ಕೆಳಭಾಗ ಎರಡರ ಫೋಟೋ ಸೇರಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Avoid handling, pruning, or harvesting plants when foliage is wet.",
+          "Remove severely spotted fallen leaves and fruits from the plot."
+        ],
+        "kn": [
+          "ಎಲೆಗಳು ಒದ್ದೆಯಾಗಿರುವಾಗ ಗಿಡಗಳನ್ನು ಮುಟ್ಟಬೇಡಿ ಅಥವಾ ಕತ್ತರಿಸಬೇಡಿ.",
+          "ಕೆಳಗೆ ಬಿದ್ದ ಸೋಂಕಿತ ಎಲೆ ಮತ್ತು ಕಾಯಿಗಳನ್ನು ಆಯ್ದು ನಾಶಪಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Use only certified disease-free seed and practice crop rotation.",
+          "Disinfect pruning shears with 70% alcohol or household bleach solution between rows."
+        ],
+        "kn": [
+          "ಪ್ರಮಾಣಿತ ರೋಗಮುಕ್ತ ಬೀಜಗಳನ್ನು ಮಾತ್ರ ಬಳಸಿ ಮತ್ತು ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ.",
+          "ಕತ್ತರಿಗಳನ್ನು ಸೋಂಕುಮುಕ್ತಗೊಳಿಸಿ ಬಳಸಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Seed treatment and foliar application of Pseudomonas fluorescens as per state agricultural university guidelines."
+        ],
+        "kn": [
+          "ಸೂಡೊಮೊನಾಸ್ ಫ್ಲೂರೊಸೆನ್ಸ್ (Pseudomonas fluorescens) ಜೈವಿಕ ದ್ರಾವಣದಿಂದ ಬೀಜೋಪಚಾರ ಮತ್ತು ಸಿಂಪಡಣೆ ಮಾಡಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Copper Oxychloride or Copper Hydroxide (registered copper bactericides/fungicides)",
+        "activeIngredientsKn": "ಕಾಪರ್ ಆಕ್ಸಿಕ್ಲೋರೈಡ್ (Copper Oxychloride) ಅಥವಾ ಕಾಪರ್ ಹೈಡ್ರಾಕ್ಸೈಡ್ ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your KVK or agriculture extension officer before spraying. Avoid unregulated antibiotic use.",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Package of Practices for Vegetable & Commercial Crops in Karnataka",
+        "organisation": "UAS Bengaluru & UHS Bagalkot",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cereal_blast",
+    "scientificName": "Magnaporthe oryzae / Pyricularia grisea",
+    "commonNames": {
+      "en": "Leaf & Neck Blast",
+      "kn": "ಬೆಂಕಿ ರೋಗ (Blast)",
+      "hi": "ब्लास्ट (झोंका रोग)"
+    },
+    "category": "fungal",
+    "affectedPlants": ["rice", "ragi"],
+    "affectedParts": ["leaf", "stem", "flower"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_shape",
+        "expectedKeywords": ["spindle", "eye-shaped", "diamond", "pointed ends"],
+        "contradictedKeywords": ["round black dots"],
+        "descriptionEn": "Spindle-shaped or diamond (eye-shaped) lesions with pointed ends",
+        "descriptionKn": "ಎರಡೂ ತುದಿ ಚೂಪಾಗಿರುವ ಕಣ್ಣಿನ ಆಕಾರದ (Spindle-shaped) ಕಲೆಗಳು",
+        "required": true
+      },
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["grey center", "whitish center", "reddish-brown border", "brown margin"],
+        "contradictedKeywords": ["solid glossy black"],
+        "descriptionEn": "Ash-grey or whitish centre surrounded by a distinct reddish-brown margin",
+        "descriptionKn": "ಮಧ್ಯಭಾಗ ಬೂದು-ಬಿಳಿ ಬಣ್ಣದ್ದಾಗಿದ್ದು ಸುತ್ತಲೂ ಕೆಂಪು-ಕಂದು ಅಂಚು ಇರುತ್ತದೆ",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Classic eye/diamond shape with grey-white centre and reddish-brown rim",
+        "Blackening at neck node below panicle/earhead in late stages"
+      ],
+      "kn": [
+        "ಮಧ್ಯ ಬೂದು ಬಣ್ಣ ಮತ್ತು ಸುತ್ತಲೂ ಕಂದು ಅಂಚು ಇರುವ ಕಣ್ಣಿನ ಆಕಾರದ ಮಚ್ಚೆಗಳು",
+        "ತೆನೆಯ ಕುತ್ತಿಗೆ ಭಾಗ ಕಪ್ಪಾಗಿ ಮುರಿಯುವುದು (Neck blast)"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "maize_turcicum_blight",
+        "conditionNameEn": "Brown Spot (Bipolaris oryzae)",
+        "howToTellApartEn": "Brown spot lesions are oval/circular and uniformly dark brown rather than diamond-shaped with grey centres.",
+        "howToTellApartKn": "ಕಂದು ಚುಕ್ಕೆ ರೋಗದ ಕಲೆಗಳು ದುಂಡಗಿದ್ದು ಪೂರ್ತಿ ಕಂದು ಬಣ್ಣದ್ದಾಗಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "High relative humidity (>90%), cooler night temperatures (20–24°C), heavy dew, and excessive urea (nitrogen) application.",
+      "kn": "ಹೆಚ್ಚಿನ ತೇವಾಂಶ (>90%), ರಾತ್ರಿ ತಂಪಾದ ಹವೆ, ಇಬ್ಬನಿ ಮತ್ತು ಅತಿಯಾದ ಯೂರಿಯಾ ಗೊಬ್ಬರ ಬಳಕೆ.",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Magnaporthe oryzae / Pyricularia grisea (Fungus)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Take a close-up photo of an individual spot to verify the ash-grey centre and pointed spindle ends.",
+        "Check the neck of emerging earheads/panicles for blackening."
+      ],
+      "kn": [
+        "ಕಲೆಯ ಮಧ್ಯಭಾಗ ಬೂದು ಬಣ್ಣವಿದೆಯೇ ಎಂದು ನೋಡಲು ಹತ್ತಿರದ ಫೋಟೋ ತೆಗೆಯಿರಿ.",
+        "ತೆನೆಯ ಕುತ್ತಿಗೆ ಭಾಗ ಕಪ್ಪಾಗಿದೆಯೇ ಪರಿಶೀಲಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Pause top-dressing of urea (nitrogen fertilizer) immediately while active blast lesions are present.",
+          "Maintain proper water management and remove weed grasses along field bunds."
+        ],
+        "kn": [
+          "ರೋಗ ಕಾಣಿಸಿಕೊಂಡ ತಕ್ಷಣ ಯೂರಿಯಾ (ಸಾರಜನಕ) ಗೊಬ್ಬರ ಕೊಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ.",
+          "ಬದುಗಳ ಮೇಲಿರುವ ಹುಲ್ಲು ಕಳೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Grow blast-tolerant varieties recommended for Karnataka (e.g., GPU-28, GPU-48, ML-365 for Ragi; Jaya, KMP-175 for Rice).",
+          "Split nitrogen fertilizer applications and ensure balanced potash (K) supply."
+        ],
+        "kn": [
+          "ರೋಗನಿರೋಧಕ ತಳಿಗಳನ್ನು ಬೆಳೆಯಿರಿ (ರಾಗಿ: GPU-28, GPU-48, ML-365; ಭತ್ತ: ಜಯಾ, KMP-175).",
+          "ಸಾರಜನಕದ ಜೊತೆಗೆ ಸಮತೋಲಿತ ಪೊಟ್ಯಾಷ್ ಗೊಬ್ಬರ ನೀಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Seed treatment with Pseudomonas fluorescens prior to sowing."
+        ],
+        "kn": [
+          "ಬಿತ್ತನೆಗೆ ಮುನ್ನ ಸೂಡೊಮೊನಾಸ್ ಫ್ಲೂರೊಸೆನ್ಸ್‌ನಿಂದ ಬೀಜೋಪಚಾರ ಮಾಡಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Tricyclazole or Isoprothiolane (registered blast fungicides)",
+        "activeIngredientsKn": "ಟ್ರೈಸೈಕ್ಲಾಜೋಲ್ (Tricyclazole) ಅಥವಾ ಐಸೊಪ್ರೊಥಿಯೊಲೇನ್ (Isoprothiolane) ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your KVK or agriculture officer before spraying.",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Package of Practices for Field Crops (Zone 5 & 6 Karnataka) — Paddy and Ragi Blast",
+        "organisation": "University of Agricultural Sciences (UAS), GKVK Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "maize_turcicum_blight",
+    "scientificName": "Exserohilum turcicum",
+    "commonNames": {
+      "en": "Turcicum Leaf Blight (Northern Corn Leaf Blight)",
+      "kn": "ಟರ್ಸಿಕಮ್ ಎಲೆ ಅಂಗಮಾರಿ ರೋಗ (Turcicum Blight)",
+      "hi": "टरसिकम पत्ती झुलसा"
+    },
+    "category": "fungal",
+    "affectedPlants": ["maize", "jowar"],
+    "affectedParts": ["leaf"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_shape",
+        "expectedKeywords": ["long", "elliptical", "cigar", "boat-shaped", "elongated"],
+        "contradictedKeywords": ["small round dots"],
+        "descriptionEn": "Long elliptical, cigar-shaped or boat-shaped lesions (5 to 15 cm long) parallel to leaf veins",
+        "descriptionKn": "ಎಲೆಯ ನರಗಳಿಗೆ ಸಮಾನಾಂತರವಾಗಿ ಉದ್ದನೆಯ ದೋಣಿ ಅಥವಾ ಸಿಗಾರ್ ಆಕಾರದ ಮಚ್ಚೆಗಳು (5–15 ಸೆಂ.ಮೀ)",
+        "required": true
+      },
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["greyish-green", "tan", "straw", "brown"],
+        "contradictedKeywords": ["glossy black"],
+        "descriptionEn": "Greyish-green to tan/straw-coloured necrotic blotches",
+        "descriptionKn": "ಬೂದು-ಹಸಿರು ಅಥವಾ ಒಣಹುಲ್ಲಿನ ಕಂದು ಬಣ್ಣದ ಉದ್ದನೆಯ ಕಲೆಗಳು",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Large cigar-shaped tan lesions several centimetres long starting on lower leaves",
+        "No ragged chewing holes or frass in the whorl"
+      ],
+      "kn": [
+        "ಕೆಳಗಿನ ಎಲೆಗಳಲ್ಲಿ ಕಾಣಿಸುವ ಹಲವು ಸೆಂ.ಮೀ ಉದ್ದದ ದೋಣಿ ಆಕಾರದ ಕಂದು ಮಚ್ಚೆಗಳು",
+        "ಸುಳಿಯಲ್ಲಿ ಹುಳು ಕಚ್ಚಿದ ರಂಧ್ರಗಳು ಇರುವುದಿಲ್ಲ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "leaf_rust",
+        "conditionNameEn": "Common Rust",
+        "howToTellApartEn": "Rust forms small raised cinnamon-brown powdery pustules rather than long tan boat-shaped blotches.",
+        "howToTellApartKn": "ತುಕ್ಕು ರೋಗದಲ್ಲಿ ಸಣ್ಣ ಕೆಂಪು-ಕಂದು ಪುಡಿಯಂತಹ ಬೊಕ್ಕೆಗಳಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Moderate temperatures (18–27°C) with heavy dew and prolonged leaf wetness.",
+      "kn": "ಮಧ್ಯಮ ಉಷ್ಣಾಂಶ (18–27°C) ಮತ್ತು ಎಲೆಗಳ ಮೇಲೆ ದೀರ್ಘಕಾಲ ಇಬ್ಬನಿ ಇರುವುದು.",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Exserohilum turcicum (Fungus)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Take a photo showing the full length of the leaf blade to confirm the long cigar-shaped lesion outline."
+      ],
+      "kn": [
+        "ಮಚ್ಚೆಯ ಉದ್ದನೆಯ ದೋಣಿ ಆಕಾರವನ್ನು ಖಚಿತಪಡಿಸಲು ಇಡೀ ಎಲೆಯ ಫೋಟೋ ತೆಗೆಯಿರಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Strip and destroy severely blighted basal leaves below the ear leaf if infection is early."
+        ],
+        "kn": [
+          "ಆರಂಭಿಕ ಹಂತದಲ್ಲಿ ತೀವ್ರವಾಗಿ ಒಣಗಿದ ಕೆಳಗಿನ ಎಲೆಗಳನ್ನು ತೆಗೆದು ನಾಶಪಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Practice deep ploughing after harvest to bury infected crop residue.",
+          "Grow resistant hybrids such as Nityashree or NAC-6002 and rotate with pulses."
+        ],
+        "kn": [
+          "ಕೊಯ್ಲಿನ ನಂತರ ಆಳವಾದ ಉಳುಮೆ ಮಾಡಿ ಮತ್ತು ನಿತ್ಯಶ್ರೀ ಅಥವಾ NAC-6002 ನಂತಹ ರೋಗನಿರೋಧಕ ತಳಿ ಬೆಳೆಯಿರಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Bio-priming seed with Trichoderma harzianum before sowing."
+        ],
+        "kn": [
+          "ಟ್ರೈಕೋಡರ್ಮಾ ಹರ್ಜಿಯಾನಮ್‌ನಿಂದ ಬೀಜೋಪಚಾರ ಮಾಡಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Mancozeb or Azoxystrobin + Difenoconazole (registered maize foliar fungicides)",
+        "activeIngredientsKn": "ಮ್ಯಾಂಕೋಜೆಬ್ (Mancozeb) ಅಥವಾ ಅಜೋಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ + ಡೈಫೆನೊಕೊನಜೋಲ್ ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your KVK or agriculture officer before spraying.",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Package of Practices for Maize Cultivation in Karnataka",
+        "organisation": "UAS Dharwad & UAS Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "maize_fall_armyworm",
+    "scientificName": "Spodoptera frugiperda",
+    "commonNames": {
+      "en": "Fall Armyworm (FAW) Feeding Damage",
+      "kn": "ಲದ್ದಿ ಹುಳು ಹಾನಿ (Fall Armyworm)",
+      "hi": "फॉल आर्मीवर्म"
+    },
+    "category": "pest_damage",
+    "affectedPlants": ["maize", "jowar", "ragi", "sugarcane"],
+    "affectedParts": ["leaf", "whole_plant"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_shape",
+        "expectedKeywords": ["window-pane", "shot-hole", "ragged holes", "chewed", "perforated"],
+        "contradictedKeywords": ["intact blade"],
+        "descriptionEn": "Translucent window-pane scraping and ragged symmetrical shot-holes across expanding whorl leaves",
+        "descriptionKn": "ಎಲೆಗಳ ಮೇಲೆ ಕಿಟಕಿಯಂತಹ ಪಾರದರ್ಶಕ ಗುರುತುಗಳು ಮತ್ತು ಸಾಲಾಗಿ ಗುಂಡು ಹೊಡೆದಂತಹ ರಂಧ್ರಗಳು",
+        "required": true
+      },
+      {
+        "feature": "pest_visible",
+        "expectedKeywords": ["frass", "sawdust", "caterpillar", "larva", "whorl"],
+        "contradictedKeywords": [],
+        "descriptionEn": "Moist sawdust-like yellowish-brown frass (excreta) packed inside the central leaf whorl",
+        "descriptionKn": "ಗಿಡದ ಸುಳಿಯೊಳಗೆ ಮರದ ಹೊಟ್ಟಿನಂತಹ ಹುಳುವಿನ ಹಿಕ್ಕೆ (Frass) ಮತ್ತು ಮರಿಹುಳು ಕಾಣಿಸುವುದು",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Ragged chewed holes and papery window-panes with wet sawdust-like frass in the central funnel/whorl",
+        "Caterpillar shows an inverted Y-mark on the head and 4 black dots in a square on the 8th abdominal segment"
+      ],
+      "kn": [
+        "ಎಲೆಯಲ್ಲಿ ಕಚ್ಚಿದ ರಂಧ್ರಗಳು ಹಾಗೂ ಸುಳಿಯೊಳಗೆ ಮರದ ಪುಡಿಯಂತಹ ಹಿಕ್ಕೆ",
+        "ಹುಳುವಿನ ತಲೆಯ ಮೇಲೆ ತಲೆಕೆಳಗಾದ Y ಗುರುತು ಮತ್ತು ಬಾಲದ ಬಳಿ 4 ಕಪ್ಪು ಚುಕ್ಕೆಗಳು"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "maize_turcicum_blight",
+        "conditionNameEn": "Turcicum Leaf Blight",
+        "howToTellApartEn": "Blight causes intact tan dead tissue without chewed holes or larval frass.",
+        "howToTellApartKn": "ಅಂಗಮಾರಿ ರೋಗದಲ್ಲಿ ಎಲೆ ಒಣಗುತ್ತದೆಯೇ ಹೊರತು ಹುಳು ಕಚ್ಚಿದ ರಂಧ್ರಗಳು ಮತ್ತು ಹಿಕ್ಕೆ ಇರುವುದಿಲ್ಲ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Dry spells during early vegetative whorl stage; staggered sowing across neighbouring fields.",
+      "kn": "ಬೆಳೆಯ ಆರಂಭಿಕ ಸುಳಿ ಹಂತದಲ್ಲಿ ಮಳೆ ಬಿಡುವು ನೀಡಿದಾಗ ಮತ್ತು ಏಕಕಾಲಕ್ಕೆ ಬಿತ್ತನೆ ಮಾಡದಿದ್ದಾಗ.",
+      "seasons": ["Kharif", "Rabi", "Zaid"]
+    },
+    "causalAgent": "Spodoptera frugiperda (Insect Pest)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Take a top-down photo directly into the central leaf whorl to check for sawdust-like frass or caterpillars."
+      ],
+      "kn": [
+        "ಗಿಡದ ಸುಳಿಯ ಒಳಭಾಗದ ನೇರ ಫೋಟೋ ತೆಗೆದು ಹಿಕ್ಕೆ ಅಥವಾ ಮರಿಹುಳು ಇದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Crush visible egg masses and hand-pick early-instar larvae during morning scouting.",
+          "Apply dry sand + lime or wood ash mixture (9:1) directly into the central plant whorl to abrasive-desiccate larvae."
+        ],
+        "kn": [
+          "ಕಾಣಿಸುವ ಮೊಟ್ಟೆಯ ಗುಂಪುಗಳನ್ನು ಮತ್ತು ಸಣ್ಣ ಮರಿಹುಳುಗಳನ್ನು ಕೈಯಿಂದ ಹೆಕ್ಕಿ ನಾಶಪಡಿಸಿ.",
+          "ಗಿಡದ ಸುಳಿಯೊಳಗೆ ಮರಳು ಮತ್ತು ಸುಣ್ಣ ಅಥವಾ ಬೂದಿ ಮಿಶ್ರಣವನ್ನು (9:1) ಚಿಮುಕಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Install FAW pheromone traps for monitoring moth flights and synchronize sowing across the village.",
+          "Intercrop maize with pulses (pigeonpea, cowpea, or blackgram) and erect bird perches."
+        ],
+        "kn": [
+          "ಪತಂಗಗಳ ನಿಗಾ ವಹಿಸಲು ಮೋಹಕ ಬಲೆಗಳನ್ನು (Pheromone traps) ಅಳವಡಿಸಿ ಮತ್ತು ತೊಗರಿ/ಅಲಸಂದಿ ಮಿಶ್ರಬೆಳೆ ಬೆಳೆಯಿರಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Whorl-directed spray of Nomuraea rileyi / Metarhizium anisopliae entomopathogenic fungi, or release of Trichogramma pretiosum egg parasitoids, or Azadirachtin (Neem) at first window-pane stage."
+        ],
+        "kn": [
+          "ಆರಂಭಿಕ ಕಿಟಕಿ-ಗುರುತು ಹಂತದಲ್ಲಿ ಬೇವಿನ ಎಣ್ಣೆ (Azadirachtin) ಅಥವಾ ಜೈವಿಕ ನೊಮುರಿಯಾ ರಿಲೆಯಿ (Nomuraea rileyi) ಸಿಂಪಡಿಸಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Emamectin benzoate or Chlorantraniliprole or Spinetoram (registered FAW whorl-directed insecticides)",
+        "activeIngredientsKn": "ಎಮಾಮೆಕ್ಟಿನ್ ಬೆಂಜೋಯೆಟ್ (Emamectin benzoate) ಅಥವಾ ಕ್ಲೋರಾಂಟ್ರಾನಿಲಿಪ್ರೋಲ್ (Chlorantraniliprole) ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Direct nozzle into the central whorl. Check the registered CIB&RC product label and consult your KVK or agriculture officer before spraying.",
+        "noteKn": "ಗಿಡದ ಸುಳಿಗೆ ನೇರವಾಗಿ ಬೀಳುವಂತೆ ಸಿಂಪಡಿಸಿ. ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "ICAR-NBAIR Advisory on Management of Fall Armyworm in Maize",
+        "organisation": "ICAR - National Bureau of Agricultural Insect Resources, Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "leaf_rust",
+    "scientificName": "Puccinia sorghi / Puccinia arachidis / Hemileia vastatrix",
+    "commonNames": {
+      "en": "Leaf Rust",
+      "kn": "ತುಕ್ಕು ರೋಗ (Leaf Rust)",
+      "hi": "पत्ती रतुआ (रस्ट)"
+    },
+    "category": "fungal",
+    "affectedPlants": ["maize", "jowar", "groundnut", "coffee"],
+    "affectedParts": ["leaf"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_texture",
+        "expectedKeywords": ["raised pustules", "powdery", "blister", "erumpent", "spores"],
+        "contradictedKeywords": ["flat water-soaked", "glossy black smooth"],
+        "descriptionEn": "Small raised blister-like powdery pustules (uredinia) that rupture the leaf epidermis",
+        "descriptionKn": "ಎಲೆಯ ಮೇಲ್ಮೈ ಒಡೆದು ಹೊರಬರುವ ಸಣ್ಣ ಪುಡಿಯಂತಹ ಉಬ್ಬಿದ ಬೊಕ್ಕೆಗಳು (Pustules)",
+        "required": true
+      },
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["rust", "cinnamon-brown", "orange-brown", "reddish-brown", "yellow-orange"],
+        "contradictedKeywords": ["solid black", "white cottony"],
+        "descriptionEn": "Cinnamon-brown, rusty orange, or yellowish-orange powdery spores",
+        "descriptionKn": "ಕಬ್ಬಿಣದ ತುಕ್ಕಿನಂತಹ ಕಂದು-ಕಿತ್ತಳೆ ಅಥವಾ ಹಳದಿ-ಕಿತ್ತಳೆ ಬಣ್ಣದ ಪುಡಿ",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Raised rusty-orange or cinnamon-brown powdery pustules (especially on leaf undersides) that leave rusty dust on fingers when touched"
+      ],
+      "kn": [
+        "ಬೆರಳಿನಿಂದ ಮುಟ್ಟಿದಾಗ ಕೈಗೆ ಅಂಟಿಕೊಳ್ಳುವ ತುಕ್ಕು ಬಣ್ಣದ (ಕಂದು-ಕಿತ್ತಳೆ) ಪುಡಿಯಂತಹ ಬೊಕ್ಕೆಗಳು"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "tomato_early_blight",
+        "conditionNameEn": "Necrotic Leaf Spot",
+        "howToTellApartEn": "Leaf spots are flat dead tissue; rust pustules are raised powdery spore mounds.",
+        "howToTellApartKn": "ಎಲೆ ಚುಕ್ಕೆಗಳು ಸಮತಟ್ಟಾದ ಒಣಗಿದ ಗುರುತುಗಳಾಗಿರುತ್ತವೆ; ತುಕ್ಕು ರೋಗದಲ್ಲಿ ಉಬ್ಬಿದ ಪುಡಿಯ ಬೊಕ್ಕೆಗಳಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Cool to moderate temperatures (16–25°C) with high humidity and frequent dew or light rain.",
+      "kn": "ತಂಪಾದ ಅಥವಾ ಮಧ್ಯಮ ಉಷ್ಣಾಂಶ (16–25°C) ಮತ್ತು ಹೆಚ್ಚಿನ ಇಬ್ಬನಿ.",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Puccinia spp. / Hemileia vastatrix (Rust Fungi)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Photograph the underside of the leaf closely to show the raised orange-brown powdery pustules.",
+        "Touch a spot with a clean white tissue paper to see if orange/rusty spore dust rubs off."
+      ],
+      "kn": [
+        "ಉಬ್ಬಿದ ತುಕ್ಕು ಬೊಕ್ಕೆಗಳನ್ನು ತೋರಿಸಲು ಎಲೆಯ ಕೆಳಭಾಗದ ಹತ್ತಿರದ ಫೋಟೋ ತೆಗೆಯಿರಿ.",
+        "ಬಿಳಿ ಕಾಗದದಿಂದ ಕಲೆಯನ್ನು ಮುಟ್ಟಿದಾಗ ತುಕ್ಕು ಬಣ್ಣದ ಪುಡಿ ಅಂಟುತ್ತದೆಯೇ ನೋಡಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Collect and destroy heavily rusted fallen leaves and volunteer crop plants."
+        ],
+        "kn": [
+          "ತುಕ್ಕು ರೋಗ ತಗುಲಿ ಕೆಳಗೆ ಬಿದ್ದ ಎಲೆಗಳನ್ನು ಆಯ್ದು ನಾಶಪಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Plant rust-resistant varieties/hybrids and maintain balanced potassium nutrition.",
+          "Regulate shade in coffee plantations to avoid excess canopy dampness."
+        ],
+        "kn": [
+          "ತುಕ್ಕು ರೋಗನಿರೋಧಕ ತಳಿಗಳನ್ನು ಬೆಳೆಯಿರಿ ಮತ್ತು ಸಮರ್ಪಕ ಪೊಟ್ಯಾಷ್ ಗೊಬ್ಬರ ನೀಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Foliar application of Trichoderma / Pseudomonas bio-agents in early preventive stages."
+        ],
+        "kn": [
+          "ಆರಂಭಿಕ ಹಂತದಲ್ಲಿ ಜೈವಿಕ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಬಳಸಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Propiconazole, Hexaconazole, or Mancozeb (registered rust fungicides)",
+        "activeIngredientsKn": "ಪ್ರೊಪಿಕೊನಜೋಲ್ (Propiconazole), ಹೆಕ್ಸಾಕೊನಜೋಲ್ (Hexaconazole), ಅಥವಾ ಮ್ಯಾಂಕೋಜೆಬ್ ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your KVK or Coffee Board / agriculture officer before spraying.",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Package of Practices for Field & Plantation Crops in Karnataka",
+        "organisation": "UAS Dharwad, UAS Bengaluru & Coffee Board of India",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "powdery_mildew",
+    "scientificName": "Leveillula taurica / Erysiphe spp. / Oidium mangiferae",
+    "commonNames": {
+      "en": "Powdery Mildew",
+      "kn": "ಬೂದಿ ರೋಗ (Powdery Mildew)",
+      "hi": "चूर्णिल आसिता (पाउडरी मिल्ड्यू)"
+    },
+    "category": "fungal",
+    "affectedPlants": ["chilli", "mango", "grapes", "tomato", "onion"],
+    "affectedParts": ["leaf", "flower", "fruit"],
+    "typicalSymptoms": [
+      {
+        "feature": "coating_or_growth",
+        "expectedKeywords": ["white powdery", "talcum", "flour", "ash-like", "white patches"],
+        "contradictedKeywords": ["glossy black", "wet slime"],
+        "descriptionEn": "White to greyish talcum-powder-like fungal coating on leaf surfaces or flower panicles",
+        "descriptionKn": "ಎಲೆಯ ಮೇಲೆ ಅಥವಾ ಹೂವಿನ ಗೊಂಚಲಿನ ಮೇಲೆ ವಿಭೂತಿ/ಹಿಟ್ಟಿನಂತಹ ಬಿಳಿ ಬೂದಿ ಪದರ",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Superficial dry white powdery patches resembling talcum powder or wood ash on leaves and flowers"
+      ],
+      "kn": [
+        "ಎಲೆಗಳ ಮೇಲೆ ವಿಭೂತಿ ಅಥವಾ ಹಿಟ್ಟು ಚೆಲ್ಲಿದಂತೆ ಕಾಣುವ ಒಣ ಬಿಳಿ ಬೂದಿ ಪದರ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "tomato_late_blight",
+        "conditionNameEn": "Spray Residue or Downy Mildew",
+        "howToTellApartEn": "Fungicide spray residue forms dried droplet rings; powdery mildew has fuzzy radiating fungal threads.",
+        "howToTellApartKn": "ಔಷಧಿ ಸಿಂಪಡಣೆಯ ಕಲೆಗಳು ಹನಿಗಳ ಗುರುತಾಗಿರುತ್ತವೆ; ಬೂದಿ ರೋಗವು ಹತ್ತಿಯಂತಹ ಬಿಳಿ ಪುಡಿಯಾಗಿ ಹರಡುತ್ತದೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Warm dry days (25–30°C) paired with cool humid nights and morning fog during winter/Rabi.",
+      "kn": "ಹಗಲಿನಲ್ಲಿ ಒಣ ಹವೆ ಮತ್ತು ರಾತ್ರಿ ತಂಪಾದ ಇಬ್ಬನಿ ಇರುವ ಚಳಿಗಾಲದ/ಹಿಂಗಾರು ಹವಾಮಾನ.",
+      "seasons": ["Rabi", "Zaid"]
+    },
+    "causalAgent": "Leveillula taurica / Erysiphe spp. / Oidium spp. (Fungi)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Check both upper and lower leaf surfaces (in Chilli, Leveillula taurica often forms white powder on the underside with yellow patches on top)."
+      ],
+      "kn": [
+        "ಎಲೆಯ ಮೇಲ್ಭಾಗ ಮತ್ತು ಕೆಳಭಾಗ ಎರಡನ್ನೂ ಪರಿಶೀಲಿಸಿ (ಮೆಣಸಿನಕಾಯಿಯಲ್ಲಿ ಎಲೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಬಿಳಿ ಪುಡಿ ಇರುತ್ತದೆ)."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Prune overcrowded shoots and remove heavily mildewed leaves carefully to avoid shaking spores onto healthy plants."
+        ],
+        "kn": [
+          "ರೋಗಗ್ರಸ್ಥ ಎಲೆಗಳನ್ನು ಅಲುಗಾಡಿಸದೆ ನಿಧಾನವಾಗಿ ಕತ್ತರಿಸಿ ನಾಶಪಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Avoid excess nitrogen fertilization which produces succulent, mildew-prone foliage."
+        ],
+        "kn": [
+          "ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರ ಬಳಕೆ ತಪ್ಪಿಸಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Spray Ampelomyces quisqualis bio-fungicide or potassium bicarbonate / neem oil in early stages."
+        ],
+        "kn": [
+          "ಆರಂಭಿಕ ಹಂತದಲ್ಲಿ ಜೈವಿಕ ಶಿಲೀಂಧ್ರನಾಶಕ ಅಥವಾ ಬೇವಿನ ಎಣ್ಣೆ ಸಿಂಪಡಿಸಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Wettable Sulphur, Hexaconazole, or Tebuconazole (registered powdery mildew fungicides)",
+        "activeIngredientsKn": "ನೀರಿನಲ್ಲಿ ಕರಗುವ ಗಂಧಕ (Wettable Sulphur), ಹೆಕ್ಸಾಕೊನಜೋಲ್, ಅಥವಾ ಟೆಬುಕೊನಜೋಲ್ ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your KVK or agriculture officer before spraying. Do not apply sulphur during hot midday sun (>32°C).",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ. ತೀವ್ರ ಬಿಸಿಲಿನಲ್ಲಿ ಗಂಧಕ ಸಿಂಪಡಿಸಬೇಡಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Horticultural Crop Protection Manual — Powdery Mildew Management",
+        "organisation": "UHS Bagalkot & ICAR-IIHR Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "anthracnose_dieback",
+    "scientificName": "Colletotrichum capsici / Colletotrichum gloeosporioides",
+    "commonNames": {
+      "en": "Anthracnose / Fruit Rot & Twig Dieback",
+      "kn": "ಚಿಬ್ಬು ರೋಗ / ಕಾಯಿ ಕೊಳೆ ಮತ್ತು ತುದಿ ಒಣಗುವ ರೋಗ (Anthracnose)",
+      "hi": "एन्थ्रेक्नोज (श्यामवर्ण)"
+    },
+    "category": "fungal",
+    "affectedPlants": ["chilli", "mango", "banana", "grapes", "onion", "arecanut", "coffee"],
+    "affectedParts": ["leaf", "fruit", "stem", "flower"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_shape",
+        "expectedKeywords": ["sunken", "circular", "irregular", "tip dieback", "marginal"],
+        "contradictedKeywords": [],
+        "descriptionEn": "Sunken circular or irregular dark lesions on fruits/leaves, or progressive drying of twigs from tip backward",
+        "descriptionKn": "ಕಾಯಿ ಅಥವಾ ಎಲೆಗಳ ಮೇಲೆ ಗುಳಿಬಿದ್ದ ಕಂದು-ಕಪ್ಪು ಕಲೆಗಳು, ಅಥವಾ ರೆಂಬೆಗಳು ತುದಿಯಿಂದ ಹಿಂದಕ್ಕೆ ಒಣಗುವುದು (Dieback)",
+        "required": true
+      },
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["dark brown", "black dots", "salmon", "straw"],
+        "contradictedKeywords": ["powdery white"],
+        "descriptionEn": "Dark brown sunken spots with tiny black pin-head acervuli dots arranged in rings",
+        "descriptionKn": "ಗುಳಿಬಿದ್ದ ಕಂದು ಕಲೆಯ ಮಧ್ಯದಲ್ಲಿ ಸಣ್ಣ ಕಪ್ಪು ಚುಕ್ಕೆಗಳು",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Sunken lesions on ripening fruits or irregular dark blotches on leaves/twigs with tiny black dot fruiting bodies"
+      ],
+      "kn": [
+        "ಹಣ್ಣುಗಳ ಮೇಲೆ ಗುಳಿಬಿದ್ದ ಕಲೆಗಳು ಮತ್ತು ಕೊಂಬೆಗಳು ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ಒಣಗುತ್ತಾ ಬರುವುದು"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "bacterial_leaf_spot",
+        "conditionNameEn": "Bacterial Spot",
+        "howToTellApartEn": "Bacterial fruit spots are raised and scabby rather than deeply sunken.",
+        "howToTellApartKn": "ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಲೆಗಳು ಉಬ್ಬಿದ ಹುರುಪಿನಂತಿರುತ್ತವೆ; ಚಿಬ್ಬು ರೋಗದ ಕಲೆಗಳು ಗುಳಿಬಿದ್ದಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Warm wet weather (26–30°C) with frequent rain splashes during flowering and fruit ripening.",
+      "kn": "ಹೂವು ಮತ್ತು ಕಾಯಿ ಬಲಿಯುವ ಹಂತದಲ್ಲಿ ಬೆಚ್ಚಗಿನ ಮಳೆ ಮತ್ತು ತೇವಾಂಶ (26–30°C).",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Colletotrichum spp. (Fungus)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Add a close-up photo of affected fruits or dying shoot tips in addition to the leaf."
+      ],
+      "kn": [
+        "ಎಲೆಯ ಜೊತೆಗೆ ಸೋಂಕಿತ ಕಾಯಿ ಅಥವಾ ಒಣಗುತ್ತಿರುವ ತುದಿ ರೆಂಬೆಯ ಫೋಟೋ ಸೇರಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Prune dried dieback twigs 2–3 cm below the visibly infected zone and collect fallen rotten fruits."
+        ],
+        "kn": [
+          "ಒಣಗಿದ ರೆಂಬೆಗಳನ್ನು ಹಸಿರು ಭಾಗಕ್ಕಿಂತ 2–3 ಸೆಂ.ಮೀ ಕೆಳಗೆ ಕತ್ತರಿಸಿ ಮತ್ತು ಕೊಳೆತ ಕಾಯಿಗಳನ್ನು ಆರಿಸಿ ನಾಶಪಡಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Use disease-free seeds harvested only from healthy spotless fruits.",
+          "Ensure good canopy aeration and avoid overhead irrigation during fruiting."
+        ],
+        "kn": [
+          "ಆರೋಗ್ಯಕರ ಕಾಯಿಗಳಿಂದ ಸಂಗ್ರಹಿಸಿದ ಪ್ರಮಾಣಿತ ಬೀಜಗಳನ್ನು ಮಾತ್ರ ಬಳಸಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Seed and foliar treatment with Trichoderma viride / Pseudomonas fluorescens."
+        ],
+        "kn": [
+          "ಟ್ರೈಕೋಡರ್ಮಾ ವಿರಿಡೆ ಅಥವಾ ಸೂಡೊಮೊನಾಸ್‌ನಿಂದ ಬೀಜೋಪಚಾರ ಮತ್ತು ಸಿಂಪಡಣೆ ಮಾಡಿ."
+        ]
+      },
+      "chemical": {
+        "activeIngredientsEn": "Azoxystrobin, Difenoconazole, or Carbendazim + Mancozeb (registered anthracnose fungicides)",
+        "activeIngredientsKn": "ಅಜೋಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ (Azoxystrobin) ಅಥವಾ ಡೈಫೆನೊಕೊನಜೋಲ್ (Difenoconazole) ಸಕ್ರಿಯ ಘಟಕಗಳು",
+        "noteEn": "Check the registered CIB&RC product label and consult your KVK or agriculture officer before spraying.",
+        "noteKn": "ಸಿಂಪಡಿಸುವ ಮುನ್ನ ಅಧಿಕೃತ CIB&RC ಲೇಬಲ್ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸ್ಥಳೀಯ ಕೃಷಿ ಅಧಿಕಾರಿಗಳ ಸಲಹೆ ಪಡೆಯಿರಿ."
+      }
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Integrated Disease Management in Chilli and Mango",
+        "organisation": "UHS Bagalkot & ICAR-IIHR Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "nitrogen_deficiency",
+    "scientificName": "Abiotic Nutrient Deficiency (Nitrogen - N)",
+    "commonNames": {
+      "en": "Nitrogen (N) Nutrient Deficiency",
+      "kn": "ಸಾರಜನಕ ಪೋಷಕಾಂಶದ ಕೊರತೆ (Nitrogen Deficiency)",
+      "hi": "नाइट्रोजन की कमी"
+    },
+    "category": "nutrient_deficiency",
+    "affectedPlants": [
+      "rice",
+      "ragi",
+      "maize",
+      "jowar",
+      "tomato",
+      "potato",
+      "chilli",
+      "brinjal",
+      "onion",
+      "cotton",
+      "sugarcane",
+      "banana"
+    ],
+    "affectedParts": ["leaf", "whole_plant"],
+    "typicalSymptoms": [
+      {
+        "feature": "discolouration_pattern",
+        "expectedKeywords": ["uniform pale yellow", "v-shaped yellowing", "midrib yellowing", "chlorosis", "pale green"],
+        "contradictedKeywords": ["black spots", "concentric rings", "white powder"],
+        "descriptionEn": "Uniform pale-green to yellow discolouration starting on older lower leaves (often V-shaped from tip along midrib in cereals)",
+        "descriptionKn": "ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳು ಯಾವುದೇ ಕಲೆಗಳಿಲ್ಲದೆ ಸಮಾನಾಗಿ ತಿಳಿ-ಹಳದಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುವುದು (ಧಾನ್ಯ ಬೆಳೆಗಳಲ್ಲಿ ತುದಿಯಿಂದ V-ಆಕಾರದಲ್ಲಿ ಹಳದಿಯಾಗುವುದು)",
+        "required": true
+      },
+      {
+        "feature": "lesion_colour",
+        "expectedKeywords": ["none", "no dark spots", "absent"],
+        "contradictedKeywords": ["solid black spots", "brown target rings"],
+        "descriptionEn": "Absence of discrete fungal or bacterial dark necrotic spots",
+        "descriptionKn": "ಯಾವುದೇ ಕಪ್ಪು ಅಥವಾ ಕಂದು ಶಿಲೀಂಧ್ರ ಕಲೆಗಳು ಇರುವುದಿಲ್ಲ",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Smooth, symmetrical pale-yellowing of older lower leaves while upper young leaves stay greener",
+        "No fungal rings, pustules, or insect chewing holes"
+      ],
+      "kn": [
+        "ಮೇಲಿನ ಎಲೆಗಳು ಹಸಿರಾಗಿದ್ದು ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳು ಮಾತ್ರ ಸಮಾನಾಗಿ ಹಳದಿಯಾಗುವುದು",
+        "ಎಲೆಯ ಮೇಲೆ ಯಾವುದೇ ಕಪ್ಪು ಚುಕ್ಕೆ ಅಥವಾ ಉಂಗುರ ಕಲೆಗಳಿರುವುದಿಲ್ಲ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "potassium_deficiency",
+        "conditionNameEn": "Potassium (K) Deficiency",
+        "howToTellApartEn": "Potassium deficiency yellows and scorches the outer leaf margins/edges rather than the central midrib or entire blade.",
+        "howToTellApartKn": "ಪೊಟ್ಯಾಷ್ ಕೊರತೆಯಲ್ಲಿ ಎಲೆಯ ಹೊರ ಅಂಚುಗಳು ಮಾತ್ರ ಹಳದಿಯಾಗಿ ಸುಟ್ಟಂತೆ ಒಣಗುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Sandy or leached soils, heavy rainfall washing away nitrates, or waterlogged root zones.",
+      "kn": "ಮರಳು ಮಿಶ್ರಿತ ಮಣ್ಣು, ಭಾರಿ ಮಳೆಯಿಂದ ಪೋಷಕಾಂಶ ತೊಳೆದುಹೋಗುವುದು ಅಥವಾ ಜೌಗು ಮಣ್ಣು.",
+      "seasons": ["Kharif", "Rabi", "Zaid"]
+    },
+    "causalAgent": "Non-infectious abiotic deficiency of plant-available Nitrogen",
+    "whatWouldSettleIt": {
+      "en": [
+        "Add a whole-plant photo to confirm whether yellowing is restricted to the lower, older leaves.",
+        "Check your Soil Health Card nitrogen (N) value in AgriMind's Soil module."
+      ],
+      "kn": [
+        "ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳು ಮಾತ್ರ ಹಳದಿಯಾಗಿವೆಯೇ ಎಂದು ತೋರಿಸಲು ಇಡೀ ಗಿಡದ ಫೋಟೋ ಸೇರಿಸಿ.",
+        "ಮಣ್ಣು ಪರೀಕ್ಷಾ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಸಾರಜನಕದ (N) ಪ್ರಮಾಣ ಪರಿಶೀಲಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Do NOT spray fungicides or pesticides — this is a nutritional condition, not an infection.",
+          "Ensure field drainage is clear if soil is waterlogged, as waterlogged roots cannot absorb nitrogen."
+        ],
+        "kn": [
+          "ಇದು ಪೋಷಕಾಂಶದ ಕೊರತೆಯೇ ಹೊರತು ರೋಗವಲ್ಲ — ಯಾವುದೇ ಕೀಟನಾಶಕ ಅಥವಾ ಶಿಲೀಂಧ್ರನಾಶಕ ಸಿಂಪಡಿಸಬೇಡಿ.",
+          "ಹೊಲದಲ್ಲಿ ನೀರು ನಿಂತಿದ್ದರೆ ಮೊದಲು ಬಸಿದು ಹೊರಹಾಕಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Apply split top-dressing of nitrogen fertilizer or foliar urea spray (1–2%) based on your Soil Health Card recommendation when soil is moist.",
+          "Incorporate well-decomposed farmyard manure, vermicompost, or green manure legumes."
+        ],
+        "kn": [
+          "ಮಣ್ಣು ಪರೀಕ್ಷೆ ಆಧರಿಸಿ ಶಿಫಾರಸು ಮಾಡಿದ ಸಾರಜನಕ ಗೊಬ್ಬರ ಅಥವಾ ಶೇ. 1–2 ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ಎಲೆ ಸಿಂಪಡಣೆಯಾಗಿ ನೀಡಿ.",
+          "ಕೊಟ್ಟಿಗೆ ಗೊಬ್ಬರ, ಎರೆಹುಳು ಗೊಬ್ಬರ ಅಥವಾ ಹಸಿರೆಲೆ ಗೊಬ್ಬರ ಬಳಸಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Apply Azospirillum (for cereals/millets) or Rhizobium (for pulses) bio-fertilizers to the root zone."
+        ],
+        "kn": [
+          "ಅಜೋಸ್ಪಿರಿಲಮ್ (Azospirillum) ಅಥವಾ ರೈಜೋಬಿಯಂ ಜೈವಿಕ ಗೊಬ್ಬರಗಳನ್ನು ಬಳಸಿ."
+        ]
+      },
+      "chemical": null
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Visual Diagnosis of Nutrient Deficiencies in Field and Horticultural Crops",
+        "organisation": "ICAR - Indian Institute of Soil Science & UAS Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "potassium_deficiency",
+    "scientificName": "Abiotic Nutrient Deficiency (Potassium - K)",
+    "commonNames": {
+      "en": "Potassium (K) Marginal Scorch Deficiency",
+      "kn": "ಪೊಟ್ಯಾಷ್ ಪೋಷಕಾಂಶದ ಕೊರತೆ (Potassium Deficiency)",
+      "hi": "पोटाश की कमी"
+    },
+    "category": "nutrient_deficiency",
+    "affectedPlants": [
+      "rice",
+      "maize",
+      "tomato",
+      "potato",
+      "cotton",
+      "banana",
+      "coconut",
+      "arecanut",
+      "sugarcane"
+    ],
+    "affectedParts": ["leaf"],
+    "typicalSymptoms": [
+      {
+        "feature": "discolouration_pattern",
+        "expectedKeywords": ["marginal yellowing", "edge scorch", "tip burn", "marginal necrosis"],
+        "contradictedKeywords": ["concentric target rings", "central spots only"],
+        "descriptionEn": "Yellowing and rusty-brown scorching strictly along the outer margins and tips of older leaves while the inner midrib area stays green",
+        "descriptionKn": "ಹಳೆಯ ಎಲೆಗಳ ಮಧ್ಯಭಾಗ ಹಸಿರಾಗಿದ್ದು, ಎಲೆಯ ತುದಿ ಮತ್ತು ಹೊರ ಅಂಚುಗಳು ಮಾತ್ರ ಹಳದಿಯಾಗಿ ನಂತರ ಸುಟ್ಟಂತೆ ಕಂದು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುವುದು",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Symmetrical yellowing/browning starting at the leaf tip and running down both outer edges of older leaves"
+      ],
+      "kn": [
+        "ಹಳೆಯ ಎಲೆಗಳ ಎರಡೂ ಬದಿಯ ಹೊರ ಅಂಚುಗಳಲ್ಲಿ ಮಾತ್ರ ಕಂಡುಬರುವ ಸಮ್ಮಿತೀಯ ಒಣಗುವಿಕೆ"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "nitrogen_deficiency",
+        "conditionNameEn": "Salt Injury or Wind Scorch",
+        "howToTellApartEn": "Salinity burn affects leaves across the whole plant; potassium deficiency consistently targets older lower leaves first.",
+        "howToTellApartKn": "ಸವಳು ನೀರಿನ ಹಾನಿ ಇಡೀ ಗಿಡದ ಎಲೆಗಳಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ; ಪೊಟ್ಯಾಷ್ ಕೊರತೆ ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳಲ್ಲಿ ಮೊದಲು ಕಾಣಿಸುತ್ತದೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Light sandy or lateritic soils with low exchangeable K, or heavy fruiting load drawing potassium from older leaves.",
+      "kn": "ಮರಳು ಅಥವಾ ಜಂಬಿಟ್ಟಿಗೆ ಮಣ್ಣು ಮತ್ತು ಕಾಯಿ ಕಟ್ಟುವ ಹಂತದಲ್ಲಿ ಪೊಟ್ಯಾಷ್ ಕೊರತೆ.",
+      "seasons": ["Kharif", "Rabi", "Zaid"]
+    },
+    "causalAgent": "Non-infectious abiotic deficiency of Potassium (K)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Verify whether the marginal scorching appears symmetrically on older lower leaves first.",
+        "Check your Soil Health Card Potassium (K) level."
+      ],
+      "kn": [
+        "ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳ ಎರಡೂ ಅಂಚುಗಳಲ್ಲಿ ಸಮಾನವಾಗಿ ಕಾಣಿಸಿಕೊಂಡಿದೆಯೇ ಪರಿಶೀಲಿಸಿ.",
+        "ಮಣ್ಣು ಪರೀಕ್ಷಾ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಪೊಟ್ಯಾಷ್ (K) ಪ್ರಮಾಣ ನೋಡಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Do NOT apply fungicides — marginal leaf scorch from K deficiency is nutritional."
+        ],
+        "kn": [
+          "ಇದು ಪೋಷಕಾಂಶದ ಕೊರತೆಯಾದ್ದರಿಂದ ಶಿಲೀಂಧ್ರನಾಶಕ ಸಿಂಪಡಿಸಬೇಡಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Apply recommended Muriate of Potash (MOP) or Sulphate of Potash (SOP) to soil, or foliar Potassium Sulphate (1%) during flowering/fruiting as per Soil Health Card advice.",
+          "Incorporate wood ash or composted banana pseudostem / crop residues."
+        ],
+        "kn": [
+          "ಮಣ್ಣು ಪರೀಕ್ಷೆ ಶಿಫಾರಸಿನಂತೆ ಪೊಟ್ಯಾಷ್ ಗೊಬ್ಬರ (MOP/SOP) ಅಥವಾ ಶೇ. 1 ರ ಸಲ್ಫೇಟ್ ಆಫ್ ಪೊಟ್ಯಾಷ್ ಎಲೆ ಸಿಂಪಡಣೆ ನೀಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Use Potassium Solubilizing Bacteria (KSB / Frateuria aurantia) bio-inoculants in soil."
+        ],
+        "kn": [
+          "ಪೊಟ್ಯಾಷ್ ಕರಗಿಸುವ ಜೈವಿಕ ಗೊಬ್ಬರಗಳನ್ನು (KSB) ಮಣ್ಣಿಗೆ ಸೇರಿಸಿ."
+        ]
+      },
+      "chemical": null
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [
+      {
+        "title": "Diagnosis and Correction of Nutrient Deficiencies in Karnataka Soils",
+        "organisation": "UAS Bengaluru",
+        "datePublishedOrReviewed": "Reviewed 2024"
+      }
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "algal_spot_crust",
+    "scientificName": "Cephaleuros virescens / Epiphytic Foliar Crust",
+    "commonNames": {
+      "en": "Algal Leaf Spot / Epiphytic Crust",
+      "kn": "ಪಾಚಿ ಎಲೆ ಚುಕ್ಕೆ / ಮೇಲ್ಮೈ ಕಪ್ಪು-ಕಂದು ಪದರ (Algal / Epiphytic Spot)"
+    },
+    "category": "environmental",
+    "affectedPlants": ["mango", "coffee", "coconut", "arecanut", "banana", "turmeric", "ginger"],
+    "affectedParts": ["leaf", "stem"],
+    "typicalSymptoms": [
+      {
+        "feature": "lesion_texture",
+        "expectedKeywords": ["raised", "crusty", "velvety", "glossy", "cushion", "superficial"],
+        "contradictedKeywords": ["sunken hole"],
+        "descriptionEn": "Raised, crusty, velvety, or glossy dark spots sitting on the upper surface of leathery leaves",
+        "descriptionKn": "ದಪ್ಪನೆಯ ಎಲೆಗಳ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಉಬ್ಬಿದಂತೆ ಕಾಣುವ ಕಪ್ಪು ಅಥವಾ ಕಂದು-ಹಸಿರು ಪಾಚಿ ಚುಕ್ಕೆಗಳು",
+        "required": true
+      },
+      {
+        "feature": "ring_pattern",
+        "expectedKeywords": ["no ring", "absent"],
+        "contradictedKeywords": ["concentric target rings"],
+        "descriptionEn": "Solid raised spots with no internal concentric target rings",
+        "descriptionKn": "ಒಳಗೆ ಯಾವುದೇ ವೃತ್ತಾಕಾರದ ಉಂಗುರಗಳಿಲ್ಲದ ಗಟ್ಟಿ ಚುಕ್ಕೆಗಳು",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Raised cushion-like or glossy dark/rusty spots on mature leathery perennial leaves without yellow halos or target rings"
+      ],
+      "kn": [
+        "ಬಹುವಾರ್ಷಿಕ ಗಿಡಗಳ ಬಲಿತ ಎಲೆಗಳ ಮೇಲೆ ಕಾಣಿಸುವ ಉಬ್ಬಿದ ಚುಕ್ಕೆಗಳು (ಹಳದಿ ವಲಯ ಅಥವಾ ಉಂಗುರ ಇರುವುದಿಲ್ಲ)"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "sooty_mould_sap_insects",
+        "conditionNameEn": "Sooty Mould",
+        "howToTellApartEn": "Sooty mould forms a loose powdery/flaky soot film over honeydew; algal/epiphytic spots form discrete raised circular cushions.",
+        "howToTellApartKn": "ಕಪ್ಪು ಮಸಿ ರೋಗವು ಉಜ್ಜಿದಾಗ ಪುಡಿಯಂತೆ ಬರುತ್ತದೆ; ಪಾಚಿ ಚುಕ್ಕೆಗಳು ದುಂಡನೆಯ ಉಬ್ಬಿದ ಗುರುತುಗಳಾಗಿರುತ್ತವೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Dense canopy shade, poor air circulation, high rainfall/humidity, and waterlogged or low-fertility orchard soil.",
+      "kn": "ತೋಟದಲ್ಲಿ ಅತಿಯಾದ ನೆರಳು, ಗಾಳಿ ಬೆಳಕಿನ ಕೊರತೆ ಮತ್ತು ಹೆಚ್ಚಿನ ತೇವಾಂಶ.",
+      "seasons": ["Kharif"]
+    },
+    "causalAgent": "Cephaleuros virescens (Parasitic green alga) or epiphytic saprophytes",
+    "whatWouldSettleIt": {
+      "en": [
+        "Examine the spot in side-lighting to see if it sits as a raised cushion above the leaf cuticle.",
+        "Have a local horticultural officer inspect the leaf to confirm whether treatment is even needed (often cosmetic on older leaves)."
+      ],
+      "kn": [
+        "ಚುಕ್ಕೆಯು ಎಲೆಯ ಮೇಲ್ಮೈಗಿಂತ ಮೇಲೆ ಉಬ್ಬಿದೆಯೇ ಎಂದು ಓರೆ ಬೆಳಕಿನಲ್ಲಿ ನೋಡಿ.",
+        "ಇದು ಹಳೆಯ ಎಲೆಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿದ್ದು ತೋಟಗಾರಿಕೆ ಅಧಿಕಾರಿಗಳಿಗೆ ತೋರಿಸಿ ದೃಢಪಡಿಸಿಕೊಳ್ಳಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Prune overlapping branches to increase sunlight penetration and airflow through the tree canopy."
+        ],
+        "kn": [
+          "ಮರದ ಒಳಭಾಗಕ್ಕೆ ಬಿಸಿಲು ಮತ್ತು ಗಾಳಿ ಬೀಳುವಂತೆ ಒತ್ತಾದ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Improve orchard drainage and maintain balanced soil nutrition to keep trees vigorous."
+        ],
+        "kn": [
+          "ತೋಟದಲ್ಲಿ ನೀರು ನಿಲ್ಲದಂತೆ ಬಸಿಗಾಲುವೆ ನಿರ್ವಹಿಸಿ ಮತ್ತು ಸಮತೋಲಿತ ಪೋಷಕಾಂಶ ನೀಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Usually cosmetic on older foliage; cultural pruning and canopy aeration are sufficient."
+        ],
+        "kn": [
+          "ಗಾಳಿ-ಬೆಳಕು ಆಡುವಂತೆ ಕಸಿ/ಸವರುವಿಕೆ ಮಾಡುವುದೇ ಮುಖ್ಯ ನಿರ್ವಹಣೆ."
+        ]
+      },
+      "chemical": null
+    },
+    "incurableNote": null,
+    "imageRecognitionSupported": true,
+    "sources": [],
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "arecanut_yellow_leaf_phytoplasma",
+    "scientificName": "Candidatus Phytoplasma (Arecanut YLD)",
+    "commonNames": {
+      "en": "Arecanut Yellow Leaf Disease (YLD)"
+    },
+    "category": "phytoplasma",
+    "affectedPlants": ["arecanut", "coconut"],
+    "affectedParts": ["leaf", "whole_plant", "root"],
+    "typicalSymptoms": [
+      {
+        "feature": "discolouration_pattern",
+        "expectedKeywords": ["yellowing", "outer whorls", "tips", "abrupt demarcation"],
+        "contradictedKeywords": ["black spots only"],
+        "descriptionEn": "Yellowing starting at leaflet tips of outer/middle crown fronds with an abrupt demarcation from green tissue",
+        "descriptionKn": "ಹೊರ ಮತ್ತು ಮಧ್ಯದ ಗರಿಗಳ ತುದಿಯಿಂದ ಹಳದಿ ಬಣ್ಣ ಪ್ರಾರಂಭವಾಗಿ ಹಸಿರು ಭಾಗದಿಂದ ಸ್ಪಷ್ಟವಾಗಿ ಬೇರ್ಪಟ್ಟಿರುವುದು",
+        "required": true
+      }
+    ],
+    "distinguishingFeatures": {
+      "en": [
+        "Progressive crown yellowing, narrowing of trunk crown, and root tip decay requiring laboratory/expert confirmation"
+      ],
+      "kn": [
+        "ಮರದ ಗರಿಗಳು ಹಳದಿಯಾಗುವುದು ಮತ್ತು ಬೇರು ಕೊಳೆಯುವುದು — ಇದನ್ನು ಪ್ರಯೋಗಾಲಯ/ತಜ್ಞರ ಪರೀಕ್ಷೆಯಿಂದ ಮಾತ್ರ ದೃಢಪಡಿಸಬಹುದು"
+      ]
+    },
+    "lookAlikes": [
+      {
+        "diseaseId": "nitrogen_deficiency",
+        "conditionNameEn": "Waterlogging or Magnesium/Nitrogen Deficiency",
+        "howToTellApartEn": "Nutrient yellowing responds to drainage and balanced fertilizer; Phytoplasma YLD causes brittle blackish roots and kernel discolouration.",
+        "howToTellApartKn": "ಪೋಷಕಾಂಶದ ಕೊರತೆಯು ಗೊಬ್ಬರ ಮತ್ತು ಬಸಿಗಾಲುವೆಯಿಂದ ಸರಿಯಾಗುತ್ತದೆ."
+      }
+    ],
+    "favourableConditions": {
+      "en": "Poorly drained clay soils in high-rainfall Malnad/coastal belts with plant hopper vector activity.",
+      "kn": "ಮಲೆನಾಡು ಮತ್ತು ಕರಾವಳಿ ಭಾಗದ ಜೌಗು ಮಣ್ಣಿನ ತೋಟಗಳು.",
+      "seasons": ["Kharif", "Rabi"]
+    },
+    "causalAgent": "Candidatus Phytoplasma (transmitted by Proutista moesta)",
+    "whatWouldSettleIt": {
+      "en": [
+        "Cannot be confirmed from a leaf photo alone — requires root inspection, nut kernel check, and KVK / ICAR-CPCRI expert diagnosis."
+      ],
+      "kn": [
+        "ಕೇವಲ ಎಲೆಯ ಫೋಟೋದಿಂದ ಇದನ್ನು ದೃಢಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ — ಬೇರು ಮತ್ತು ಅಡಿಕೆ ಒಳಭಾಗದ ಪರೀಕ್ಷೆಗಾಗಿ KVK ಅಥವಾ CPCRI ವಿಜ್ಞಾನಿಗಳನ್ನು ಸಂಪರ್ಕಿಸಿ."
+      ]
+    },
+    "management": {
+      "immediate": {
+        "en": [
+          "Open deep drainage trenches between rows to lower the water table and aerate roots."
+        ],
+        "kn": [
+          "ಬಸಿಗಾಲುವೆಗಳನ್ನು ಆಳ ಮಾಡಿ ಹೆಚ್ಚುವರಿ ನೀರು ಸರಾಗವಾಗಿ ಹರಿದುಹೋಗುವಂತೆ ಮಾಡಿ."
+        ]
+      },
+      "cultural": {
+        "en": [
+          "Apply balanced organic manure, neem cake, dolomite lime, and recommended NPK + micronutrients to sustain palm health."
+        ],
+        "kn": [
+          "ಕೊಟ್ಟಿಗೆ ಗೊಬ್ಬರ, ಬೇವಿನ ಹಿಂಡಿ, ಸುಣ್ಣ (ಡೊಲೊಮೈಟ್) ಮತ್ತು ಶಿಫಾರಸು ಮಾಡಿದ ಪೋಷಕಾಂಶ ನೀಡಿ."
+        ]
+      },
+      "biological": {
+        "en": [
+          "Soil application of Trichoderma and Pseudomonas bio-consortia around the palm basin."
+        ],
+        "kn": [
+          "ಮರದ ಬುಡಕ್ಕೆ ಟ್ರೈಕೋಡರ್ಮಾ ಮತ್ತು ಸೂಡೊಮೊನಾಸ್ ಜೈವಿಕ ಗೊಬ್ಬರಗಳನ್ನು ನೀಡಿ."
+        ]
+      },
+      "chemical": null
+    },
+    "incurableNote": {
+      "en": "Phytoplasma diseases cannot be cured by foliar fungicide sprays. Focus on drainage, balanced nutrition, and expert consultation with ICAR-CPCRI / KVK.",
+      "kn": "ಫೈಟೋಪ್ಲಾಸ್ಮಾ ರೋಗವನ್ನು ಶಿಲೀಂಧ್ರನಾಶಕ ಸಿಂಪಡಣೆಯಿಂದ ಗುಣಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಬಸಿಗಾಲುವೆ, ಪೋಷಕಾಂಶ ನಿರ್ವಹಣೆ ಮತ್ತು ತಜ್ಞರ ಸಲಹೆ ಪಾಲಿಸಿ."
+    },
+    "imageRecognitionSupported": false,
+    "sources": [],
+    "reviewStatus": "draft"
+  }
+]

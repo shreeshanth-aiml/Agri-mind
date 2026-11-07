@@ -1,0 +1,242 @@
+[
+  {
+    "id": "rice",
+    "commonNames": {
+      "en": "Rice / Paddy",
+      "kn": "ಭತ್ತ",
+      "hi": "धान"
+    },
+    "scientificName": "Oryza sativa",
+    "category": "cereal",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Long, narrow, linear grass leaf blade with parallel venation and a distinct midrib"
+  },
+  {
+    "id": "ragi",
+    "commonNames": {
+      "en": "Ragi (Finger Millet)",
+      "kn": "ರಾಗಿ",
+      "hi": "रागी"
+    },
+    "scientificName": "Eleusine coracana",
+    "category": "millet",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Linear grass-like leaf blades with parallel veins folded along the midrib, finger-like earheads"
+  },
+  {
+    "id": "maize",
+    "commonNames": {
+      "en": "Maize (Corn)",
+      "kn": "ಮೆಕ್ಕೆಜೋಳ",
+      "hi": "मक्का"
+    },
+    "scientificName": "Zea mays",
+    "category": "cereal",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Broad, elongated ribbon-like grass leaf with wavy margins, parallel veins, and a prominent white central midrib"
+  },
+  {
+    "id": "jowar",
+    "commonNames": {
+      "en": "Jowar (Sorghum)",
+      "kn": "ಜೋಳ",
+      "hi": "ज्वार"
+    },
+    "scientificName": "Sorghum bicolor",
+    "category": "millet",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Broad linear-lanceolate waxy leaf blade with parallel venation and a pale midrib"
+  },
+  {
+    "id": "tomato",
+    "commonNames": {
+      "en": "Tomato",
+      "kn": "ಟೊಮೇಟೊ",
+      "hi": "टमाटर"
+    },
+    "scientificName": "Solanum lycopersicum",
+    "category": "vegetable",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Odd-pinnate compound leaf with 5 to 9 deeply lobed, serrated, matte, slightly pubescent (hairy) leaflets"
+  },
+  {
+    "id": "potato",
+    "commonNames": {
+      "en": "Potato",
+      "kn": "ಆಲೂಗಡ್ಡೆ",
+      "hi": "आलू"
+    },
+    "scientificName": "Solanum tuberosum",
+    "category": "vegetable",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Pinnately compound leaf with oval to oblong leaflets having entire or slightly wavy margins and crinkled veins"
+  },
+  {
+    "id": "chilli",
+    "commonNames": {
+      "en": "Chilli",
+      "kn": "ಮೆಣಸಿನಕಾಯಿ",
+      "hi": "मिर्च"
+    },
+    "scientificName": "Capsicum annuum",
+    "category": "spice_vegetable",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Simple, alternate, ovate to lanceolate smooth leaf blade with entire margins and pointed tip"
+  },
+  {
+    "id": "brinjal",
+    "commonNames": {
+      "en": "Brinjal (Eggplant)",
+      "kn": "ಬದನೆಕಾಯಿ",
+      "hi": "बैंगन"
+    },
+    "scientificName": "Solanum melongena",
+    "category": "vegetable",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Large simple ovate leaf with coarse scalloped/lobed margins and dense star-shaped hairs (stellate pubescence)"
+  },
+  {
+    "id": "onion",
+    "commonNames": {
+      "en": "Onion",
+      "kn": "ಈರುಳ್ಳಿ",
+      "hi": "प्याज"
+    },
+    "scientificName": "Allium cepa",
+    "category": "bulb_vegetable",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Hollow, cylindrical, tubular bluish-green waxy leaves arising from basal bulb"
+  },
+  {
+    "id": "cotton",
+    "commonNames": {
+      "en": "Cotton",
+      "kn": "ಹತ್ತಿ",
+      "hi": "कपास"
+    },
+    "scientificName": "Gossypium hirsutum",
+    "category": "fibre_crop",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Palmately 3-to-5 lobed broad leaf with palmate main veins"
+  },
+  {
+    "id": "sugarcane",
+    "commonNames": {
+      "en": "Sugarcane",
+      "kn": "ಕಬ್ಬು",
+      "hi": "गन्ना"
+    },
+    "scientificName": "Saccharum officinarum",
+    "category": "cash_crop",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Very long, stiff, upright sword-shaped grass blade with finely serrated edges and thick white midrib"
+  },
+  {
+    "id": "groundnut",
+    "commonNames": {
+      "en": "Groundnut (Peanut)",
+      "kn": "ಶೇಂಗಾ / ಕಡಲೆಕಾಯಿ",
+      "hi": "मूंगफली"
+    },
+    "scientificName": "Arachis hypogaea",
+    "category": "oilseed",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Tetrafoliolate (4-leaflet) compound leaf with small oval smooth leaflets arranged in two opposite pairs"
+  },
+  {
+    "id": "coconut",
+    "commonNames": {
+      "en": "Coconut",
+      "kn": "ತೆಂಗು",
+      "hi": "नारियल"
+    },
+    "scientificName": "Cocos nucifera",
+    "category": "plantation",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Large pinnate palm frond composed of stiff, glossy, leathery linear-lanceolate leaflets"
+  },
+  {
+    "id": "arecanut",
+    "commonNames": {
+      "en": "Arecanut",
+      "kn": "ಅಡಿಕೆ",
+      "hi": "सुपारी"
+    },
+    "scientificName": "Areca catechu",
+    "category": "plantation",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Pinnate palm crown frond with pleated, parallel-veined leaflets fused at tips"
+  },
+  {
+    "id": "banana",
+    "commonNames": {
+      "en": "Banana",
+      "kn": "ಬಾಳೆ",
+      "hi": "केला"
+    },
+    "scientificName": "Musa paradisiaca",
+    "category": "fruit",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Very large oblong-paddle blade with thick central midrib and closely spaced perpendicular lateral veins"
+  },
+  {
+    "id": "mango",
+    "commonNames": {
+      "en": "Mango",
+      "kn": "ಮಾವು",
+      "hi": "आम"
+    },
+    "scientificName": "Mangifera indica",
+    "category": "fruit",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Simple, leathery, glossy oblong-lanceolate leaf with prominent pinnate veins and slightly wavy entire margins"
+  },
+  {
+    "id": "coffee",
+    "commonNames": {
+      "en": "Coffee",
+      "kn": "ಕಾಫಿ",
+      "hi": "कॉफी"
+    },
+    "scientificName": "Coffea arabica",
+    "category": "plantation",
+    "kbStatus": "reviewed",
+    "typicalLeafMorphology": "Opposite, simple, glossy dark-green elliptical leaf with wavy margins and pronounced domatia along veins"
+  },
+  {
+    "id": "turmeric",
+    "commonNames": {
+      "en": "Turmeric",
+      "kn": "ಅರಿಶಿನ",
+      "hi": "हल्दी"
+    },
+    "scientificName": "Curcuma longa",
+    "category": "spice",
+    "kbStatus": "draft",
+    "typicalLeafMorphology": "Large oblong-lanceolate light-green leaf blade tapering at both ends with sheathing petiole"
+  },
+  {
+    "id": "ginger",
+    "commonNames": {
+      "en": "Ginger",
+      "kn": "ಶುಂಠಿ",
+      "hi": "अदरक"
+    },
+    "scientificName": "Zingiber officinale",
+    "category": "spice",
+    "kbStatus": "draft",
+    "typicalLeafMorphology": "Narrow linear-lanceolate alternate distichous leaves on erect pseudostem"
+  },
+  {
+    "id": "grapes",
+    "commonNames": {
+      "en": "Grapes",
+      "kn": "ದ್ರಾಕ್ಷಿ",
+      "hi": "अंगूर"
+    },
+    "scientificName": "Vitis vinifera",
+    "category": "fruit",
+    "kbStatus": "draft",
+    "typicalLeafMorphology": "Palmately 3-to-5 lobed orbicular leaf with coarsely toothed margins and cordate base"
+  }
+]

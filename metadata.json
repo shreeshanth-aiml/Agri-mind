@@ -1,0 +1,6 @@
+{
+  "name": "AgriMind",
+  "description": "AI-powered farming assistant for Karnataka farmers with crop recommendations, disease detection, yield forecasting, and market ROI analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #2D4A3E;
+  --color-wheat: #D4C19C;
+  --color-soil: #6B4E37;
+  --color-cream: #FAF7F2;
+  --color-charcoal: #2B2B2B;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+  }
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
+}
+
+/* Ambient nature drift animation (8-12s loop, low amplitude, 2-4px) */
+@keyframes ambientDriftSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(-3px) rotate(0.8deg);
+    opacity: 0.95;
+  }
+}
+
+@keyframes ambientDriftReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(3px) rotate(-0.8deg);
+    opacity: 0.92;
+  }
+}
+
+@keyframes sproutGrow {
+  0% {
+    transform: scale(0.8) translateY(2px);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.05) translateY(-1px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 0.9;
+  }
+}
+
+.animate-ambient-slow {
+  animation: ambientDriftSlow 10s ease-in-out infinite;
+}
+
+.animate-ambient-reverse {
+  animation: ambientDriftReverse 12s ease-in-out infinite;
+}
+
+.animate-sprout {
+  animation: sproutGrow 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ambient-slow,
+  .animate-ambient-reverse,
+  .animate-sprout {
+    animation: none !important;
+  }
+}
+
+/* Forced Mobile View override when mobile mode is explicitly selected on desktop screens */
+.forced-mobile-view .grid {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+.forced-mobile-view .grid.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+.forced-mobile-view .grid.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+.forced-mobile-view .grid.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+.forced-mobile-view [class*="lg:col-span-"] {
+  grid-column: span 1 / span 1 !important;
+}
+.forced-mobile-view .hidden[class*="lg:block"],
+.forced-mobile-view .hidden[class*="lg:flex"] {
+  display: none !important;
+}
+
